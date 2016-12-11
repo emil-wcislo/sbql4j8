@@ -60,7 +60,7 @@ public class T6567415 {
      */
 
     final static int BAD_FILE_LENGTH =
-            com.sun.tools.javac.jvm.ClassReader.INITIAL_BUFFER_SIZE;
+            sbql4j8.com.sun.tools.javac.jvm.ClassReader.INITIAL_BUFFER_SIZE;
 
     static void createClassFile() throws IOException {
         FileOutputStream fos = null;
@@ -72,7 +72,7 @@ public class T6567415 {
             fos.close();
         }
         String cmds[] = {TEST_JAVA};
-        com.sun.tools.javac.Main.compile(cmds);
+        sbql4j8.com.sun.tools.javac.Main.compile(cmds);
     }
 
     static void enlargeClassFile() throws IOException {
@@ -132,7 +132,7 @@ public class T6567415 {
             @Override
             public void run() {
                 String cmds[] = {"-verbose", "-cp", ".", TEST2_JAVA};
-                int ret = com.sun.tools.javac.Main.compile(cmds);
+                int ret = sbql4j8.com.sun.tools.javac.Main.compile(cmds);
                 System.out.println("test compilation returns: " + ret);
             }
         };

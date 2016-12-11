@@ -30,7 +30,7 @@
 import java.lang.annotation.*;
 import static java.lang.annotation.RetentionPolicy.*;
 import static java.lang.annotation.ElementType.*;
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 /*
  * A type-annotations on a field in an inner class not in a lambda expression

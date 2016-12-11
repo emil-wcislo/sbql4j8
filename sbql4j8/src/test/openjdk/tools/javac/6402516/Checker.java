@@ -25,12 +25,12 @@ import java.io.*;
 import java.util.*;
 import javax.lang.model.util.*;
 import javax.tools.*;
-import com.sun.tools.javac.api.*;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.util.Position;
+import sbql4j8.com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.*;
+import sbql4j8.com.sun.tools.javac.util.Position;
 
 /*
  * Abstract class to help check the scopes in a parsed source file.

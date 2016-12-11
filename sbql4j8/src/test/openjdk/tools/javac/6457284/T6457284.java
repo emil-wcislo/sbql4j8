@@ -32,10 +32,10 @@ import java.io.IOException;
 import java.net.URI;
 import javax.lang.model.element.Element;
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.JavacMessages;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.util.JavacMessages;
 
 import javax.tools.*;
 

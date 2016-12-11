@@ -21,8 +21,8 @@
  * questions.
  */
 
-import com.sun.tools.doclets.Taglet;
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.tools.doclets.Taglet;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.Map;
 
 public class Check implements Taglet {

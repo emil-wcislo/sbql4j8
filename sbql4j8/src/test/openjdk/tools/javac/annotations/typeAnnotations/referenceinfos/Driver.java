@@ -35,9 +35,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.TypeAnnotation;
-import com.sun.tools.classfile.TypeAnnotation.TargetType;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.TypeAnnotation;
+import sbql4j8.com.sun.tools.classfile.TypeAnnotation.TargetType;
 
 public class Driver {
 
@@ -171,7 +171,7 @@ public class Driver {
     }
 
     protected File compileTestFile(File f, String testClass) {
-        int rc = com.sun.tools.javac.Main.compile(new String[] { "-source", "1.8", "-g", f.getPath() });
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] { "-source", "1.8", "-g", f.getPath() });
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);
         String path;

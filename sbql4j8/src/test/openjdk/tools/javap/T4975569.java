@@ -70,7 +70,7 @@ public class T4975569
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
         String[] args = { "-v", "-classpath", testClasses, className };
-        int rc = com.sun.tools.javap.Main.run(args, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, out);
         if (rc != 0)
             throw new Error("javap failed. rc=" + rc);
         out.close();

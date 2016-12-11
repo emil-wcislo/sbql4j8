@@ -59,7 +59,7 @@ public class T6474890 {
     }
 
     void compileTestFile(File classDir, File file) {
-        int rc = com.sun.tools.javac.Main.compile(
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(
            new String[] { "-d", classDir.getPath(), file.getPath() });
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);
@@ -86,7 +86,7 @@ public class T6474890 {
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
         //sun.tools.javap.Main.entry(args);
-        int rc = com.sun.tools.javap.Main.run(args, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, out);
         if (rc != 0)
             throw new Error("javap failed. rc=" + rc);
         out.close();

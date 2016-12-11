@@ -28,7 +28,7 @@
  * @run main CombinationsTargetTest3
  */
 
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 import java.io.File;
 import java.util.Vector;
 

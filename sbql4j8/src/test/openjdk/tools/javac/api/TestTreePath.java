@@ -41,8 +41,8 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 
-import com.sun.source.tree.Tree;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.util.*;
 
 @SupportedAnnotationTypes("*")
 public class TestTreePath extends AbstractProcessor {

@@ -34,12 +34,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
 
-import static com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8;
-import static com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8_info;
-import static com.sun.tools.classfile.ConstantPool.CPInfo;
+import static sbql4j8.com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8;
+import static sbql4j8.com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8_info;
+import static sbql4j8.com.sun.tools.classfile.ConstantPool.CPInfo;
 
 public class EmptyUTF8ForInnerClassNameTest {
 

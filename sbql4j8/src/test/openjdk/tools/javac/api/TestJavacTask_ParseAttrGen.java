@@ -31,8 +31,8 @@ import java.io.*;
 import java.util.*;
 import javax.lang.model.element.*;
 import javax.tools.*;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 
 public class TestJavacTask_ParseAttrGen {
     public static void main(String... args) throws Exception {

@@ -28,10 +28,10 @@
  *      consideration the ";" at the end
  */
 
-import com.sun.source.tree.BlockTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.StatementTree;
-import com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.tree.BlockTree;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.StatementTree;
+import sbql4j8.com.sun.source.tree.Tree;
 import java.io.IOException;
 import java.net.URI;
 import java.util.Arrays;
@@ -41,9 +41,9 @@ import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.StandardJavaFileManager;
 
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreeScanner;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 
 public class TestToString {
     String[] statements = {

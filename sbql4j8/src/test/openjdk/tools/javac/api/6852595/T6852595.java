@@ -37,12 +37,12 @@ import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.ToolProvider;
 
-import com.sun.source.util.JavacTask;
-import com.sun.source.tree.*;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTrees;
-import com.sun.tools.javac.tree.JCTree.*;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTrees;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.*;
 
 import static javax.tools.JavaFileObject.Kind;
 

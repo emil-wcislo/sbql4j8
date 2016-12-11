@@ -46,10 +46,10 @@ import java.lang.reflect.*;
 import java.util.*;
 import javax.tools.*;
 
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import sbql4j8.com.sun.tools.javac.tree.TreeScanner;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 public class JavacTreeScannerTest extends AbstractTreeScannerTest {
     /**

@@ -30,15 +30,15 @@
  *
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool.*;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.classfile.Instruction;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.*;
+import sbql4j8.com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 import java.io.File;
 import java.net.URI;

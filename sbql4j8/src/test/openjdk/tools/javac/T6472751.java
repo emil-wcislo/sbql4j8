@@ -28,14 +28,14 @@
  * @author Peter Ahe
  */
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.tree.Tree.Kind;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.SourcePositions;
-import com.sun.source.util.TreeScanner;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.tree.Tree.Kind;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.SourcePositions;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.util.List;
 import java.io.IOException;
 import java.net.URI;
 import javax.tools.JavaCompiler;

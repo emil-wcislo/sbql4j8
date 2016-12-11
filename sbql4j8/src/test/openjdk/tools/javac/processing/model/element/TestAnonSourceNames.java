@@ -28,8 +28,8 @@ import javax.lang.model.element.*;
 import javax.lang.model.type.*;
 import javax.lang.model.util.*;
 import java.util.*;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 import static javax.tools.Diagnostic.Kind.*;
 
 /**

@@ -30,9 +30,9 @@
  * @summary Assertion check for TypeVariable.getUpperBound() fails
  */
 
-import com.sun.source.util.*;
-import com.sun.tools.javac.api.*;
-import com.sun.tools.javac.file.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.tools.javac.file.*;
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;
 import javax.lang.model.type.*;

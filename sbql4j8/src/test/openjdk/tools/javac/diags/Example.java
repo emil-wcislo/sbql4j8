@@ -36,15 +36,15 @@ import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 
 // The following two classes are both used, but cannot be imported directly
-// import com.sun.tools.javac.Main
-// import com.sun.tools.javac.main.Main
+// import sbql4j8.com.sun.tools.javac.Main
+// import sbql4j8.com.sun.tools.javac.main.Main
 
-import com.sun.tools.javac.api.ClientCodeWrapper;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.JavacMessages;
-import com.sun.tools.javac.util.JCDiagnostic;
+import sbql4j8.com.sun.tools.javac.api.ClientCodeWrapper;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.main.Main;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.JavacMessages;
+import sbql4j8.com.sun.tools.javac.util.JCDiagnostic;
 
 /**
  * Class to handle example code designed to illustrate javac diagnostic messages.
@@ -473,7 +473,7 @@ class Example implements Comparable<Example> {
             } else
                 pw = out;
 
-            int rc = com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
+            int rc = sbql4j8.com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
 
             if (keys != null) {
                 pw.close();

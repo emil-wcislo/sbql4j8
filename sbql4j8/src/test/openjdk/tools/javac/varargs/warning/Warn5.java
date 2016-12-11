@@ -43,7 +43,7 @@ import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.ToolProvider;
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 
 public class Warn5
     extends JavacTestingAbstractThreadedTest
@@ -290,7 +290,7 @@ public class Warn5
 
     class JavaSource extends SimpleJavaFileObject {
 
-        String template = "import com.sun.tools.javac.api.*;\n" +
+        String template = "import sbql4j8.com.sun.tools.javac.api.*;\n" +
                           "import java.util.List;\n" +
                           "class Test {\n" +
                           "   static void test(Object o) {}\n" +

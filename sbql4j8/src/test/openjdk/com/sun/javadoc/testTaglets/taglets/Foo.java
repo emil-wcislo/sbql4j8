@@ -23,11 +23,11 @@
 
 package taglets;
 
-import com.sun.tools.doclets.internal.toolkit.*;
-import com.sun.tools.doclets.internal.toolkit.taglets.*;
-import com.sun.tools.doclets.internal.toolkit.util.*;
+import sbql4j8.com.sun.tools.doclets.internal.toolkit.*;
+import sbql4j8.com.sun.tools.doclets.internal.toolkit.taglets.*;
+import sbql4j8.com.sun.tools.doclets.internal.toolkit.util.*;
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.*;
 
 public class Foo extends BaseTaglet {

@@ -106,7 +106,7 @@ public class Main
 
         System.out.println("Compile: " + args);
         StringWriter out = new StringWriter();
-        int rc = com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]),
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]),
                                                   new PrintWriter(out));
         System.out.println(out.toString());
         System.out.println("result: " + rc);

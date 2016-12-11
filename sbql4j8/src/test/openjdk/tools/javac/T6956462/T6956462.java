@@ -35,8 +35,8 @@ import java.net.URISyntaxException;
 import java.util.*;
 import javax.tools.*;
 import javax.tools.JavaCompiler.CompilationTask;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 
 public class T6956462 {
     public static void main(String[] args) throws Exception {

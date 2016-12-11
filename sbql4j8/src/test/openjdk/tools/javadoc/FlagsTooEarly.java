@@ -28,7 +28,7 @@
  *          javac's Enter phase, before the flags are generally available.
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 public class FlagsTooEarly extends Doclet {
 
@@ -37,7 +37,7 @@ public class FlagsTooEarly extends Doclet {
             new java.io.File(System.getProperty("test.src", "."),
                              "FlagsTooEarly.java");
 
-        if (com.sun.tools.javadoc.Main.execute(
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(
                 "javadoc",
                 "FlagsTooEarly",
                 FlagsTooEarly.class.getClassLoader(),

@@ -28,21 +28,21 @@
  * @author gafter
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.*;
 
 public class CompletionFailure extends Doclet
 {
     public static void main(String[] args) {
         // run javadoc on package pkg
-        if (com.sun.tools.javadoc.Main.execute("javadoc",
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute("javadoc",
                                                "CompletionFailure",
                                                CompletionFailure.class.getClassLoader(),
                                                new String[]{"pkg"}) != 0)
             throw new Error();
     }
 
-    public static boolean start(com.sun.javadoc.RootDoc root) {
+    public static boolean start(sbql4j8.com.sun.javadoc.RootDoc root) {
         ClassDoc[] classes = root.classes();
         if (classes.length != 1)
             throw new Error("1 " + Arrays.asList(classes));

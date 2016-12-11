@@ -27,13 +27,13 @@
  * @summary JCTree.pos may be incorrect for BinaryTrees
  */
 
-import com.sun.source.tree.BinaryTree;
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.tree.VariableTree;
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.source.tree.BinaryTree;
+import sbql4j8.com.sun.source.tree.ClassTree;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.tree.VariableTree;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
 import java.net.URI;
 import java.util.Arrays;
 import javax.tools.JavaCompiler;

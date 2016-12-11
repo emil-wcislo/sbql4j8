@@ -38,9 +38,9 @@ public class T6715767 {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] args = { "java.lang.ClassLoader" };
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         if (rc != 0 ||
-            sw.toString().indexOf("at com.sun.tools.javap.JavapTask.run") != -1) {
+            sw.toString().indexOf("at sbql4j8.com.sun.tools.javap.JavapTask.run") != -1) {
             System.err.println("rc: " + rc);
             System.err.println("log:\n" + sw);
             throw new Exception("unexpected result");

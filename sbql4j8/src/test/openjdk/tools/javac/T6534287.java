@@ -32,7 +32,7 @@ public class T6534287 {
     public static void main(String... args) throws Exception {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        com.sun.tools.javac.Main.compile(new String[] { "" }, pw);
+        sbql4j8.com.sun.tools.javac.Main.compile(new String[] { "" }, pw);
         pw.close();
         sw.close();
         String output = sw.toString();

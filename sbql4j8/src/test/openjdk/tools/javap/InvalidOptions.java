@@ -55,7 +55,7 @@ public class InvalidOptions {
     String runJavap(int expect, String... option) {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javap.Main.run(option, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(option, pw);
         pw.close();
         System.out.println("javap prints:");
         System.out.println(sw);

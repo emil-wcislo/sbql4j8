@@ -43,19 +43,19 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
 
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.tree.*;
-import com.sun.source.util.DocTrees;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.SourcePositions;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.TreePathScanner;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.Pretty;
-import com.sun.tools.javac.util.Position;
+import sbql4j8.com.sun.source.doctree.DocCommentTree;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.DocTrees;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.SourcePositions;
+import sbql4j8.com.sun.source.util.TaskEvent;
+import sbql4j8.com.sun.source.util.TaskListener;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.Pretty;
+import sbql4j8.com.sun.tools.javac.util.Position;
 
 /** Doc comment: Test */
 public class Test {

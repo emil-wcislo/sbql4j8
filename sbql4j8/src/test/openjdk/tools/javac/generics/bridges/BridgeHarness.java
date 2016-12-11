@@ -30,14 +30,14 @@
  * @run main BridgeHarness
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.classfile.AccessFlags;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPool;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 import java.io.File;
 import java.io.InputStream;

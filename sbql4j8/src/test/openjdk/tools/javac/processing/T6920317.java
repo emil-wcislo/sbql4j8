@@ -316,7 +316,7 @@ public class T6920317 {
             args.add(f.getPath());
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
         pw.flush();
         if (sw.getBuffer().length() > 0)
             System.err.println(sw.toString());

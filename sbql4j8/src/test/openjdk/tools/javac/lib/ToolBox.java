@@ -51,8 +51,8 @@ import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.ToolProvider;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
 
 import sun.tools.jar.Main;
 
@@ -495,7 +495,7 @@ public class ToolBox {
         JAVAC {
             @Override
             int run(JavaToolArgs params, PrintWriter pw) {
-                return com.sun.tools.javac.Main.compile(params.argsArr, pw);
+                return sbql4j8.com.sun.tools.javac.Main.compile(params.argsArr, pw);
             }
         },
         JAVAC_API {
@@ -525,13 +525,13 @@ public class ToolBox {
         JAVAH {
             @Override
             int run(JavaToolArgs params, PrintWriter pw) {
-                return com.sun.tools.javah.Main.run(params.argsArr, pw);
+                return sbql4j8.com.sun.tools.javah.Main.run(params.argsArr, pw);
             }
         },
         JAVAP {
             @Override
             int run(JavaToolArgs params, PrintWriter pw) {
-                return com.sun.tools.javap.Main.run(params.argsArr, pw);
+                return sbql4j8.com.sun.tools.javap.Main.run(params.argsArr, pw);
             }
         };
 

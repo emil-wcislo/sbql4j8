@@ -30,9 +30,9 @@
 import java.io.*;
 import java.util.*;
 import javax.tools.*;
-import com.sun.tools.javac.file.*;
-import com.sun.tools.javac.file.ZipArchive.ZipFileObject;
-import com.sun.tools.javac.file.ZipFileIndexArchive.ZipFileIndexFileObject;
+import sbql4j8.com.sun.tools.javac.file.*;
+import sbql4j8.com.sun.tools.javac.file.ZipArchive.ZipFileObject;
+import sbql4j8.com.sun.tools.javac.file.ZipFileIndexArchive.ZipFileIndexFileObject;
 
 public class T6705935 {
     public static void main(String... args) throws Exception {

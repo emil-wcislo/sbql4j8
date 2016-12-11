@@ -51,7 +51,7 @@ public class T6759996 {
     void javac(String... args) throws IOException, InterruptedException {
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, out);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, out);
         System.out.println(sw.toString());
         if (rc != 0)
             throw new Error("javac failed: rc=" + rc);

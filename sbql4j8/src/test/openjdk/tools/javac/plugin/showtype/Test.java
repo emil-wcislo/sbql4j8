@@ -119,7 +119,7 @@ public class Test {
 
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         String out = sw.toString();
         System.err.println(out);
         if (rc != 0)
@@ -138,7 +138,7 @@ public class Test {
 
     private void compile(String... args) throws Exception {
         System.err.println("compile: " + Arrays.asList(args));
-        int rc = com.sun.tools.javac.Main.compile(args);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args);
         if (rc != 0)
             throw new Exception("compiled failed, rc=" + rc);
     }

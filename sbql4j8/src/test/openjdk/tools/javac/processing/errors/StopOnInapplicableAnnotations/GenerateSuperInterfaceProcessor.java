@@ -21,7 +21,7 @@
  * questions.
  */
 
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Set;

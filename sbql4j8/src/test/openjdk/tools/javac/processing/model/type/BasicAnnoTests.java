@@ -53,9 +53,9 @@ import javax.lang.model.type.TypeVariable;
 import javax.lang.model.type.WildcardType;
 import javax.tools.Diagnostic.Kind;
 
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import sbql4j8.com.sun.tools.javac.code.Symbol;
+import sbql4j8.com.sun.tools.javac.code.Type;
+import sbql4j8.com.sun.tools.javac.processing.JavacProcessingEnvironment;
 
 /**
  * The test scans this file looking for test cases annotated with @Test.

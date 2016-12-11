@@ -87,7 +87,7 @@ public class T6942366 {
         args.add(new File(testSrc, "Test.java").getPath());
         System.out.println("javadoc: " + args);
 
-        int rc = com.sun.tools.javadoc.Main.execute(args.toArray(new String[args.size()]));
+        int rc = sbql4j8.com.sun.tools.javadoc.Main.execute(args.toArray(new String[args.size()]));
         if (rc != 0)
             throw new Exception("unexpected exit from javadoc, rc=" + rc);
 

@@ -28,10 +28,10 @@
  * @author wmdietl
  */
 
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.source.tree.ClassTree;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
 
 import java.io.IOException;
 import java.net.URI;

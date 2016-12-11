@@ -39,12 +39,12 @@ import javax.lang.model.type.TypeMirror;
 import javax.lang.model.type.UnknownTypeException;
 import javax.lang.model.util.*;
 
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.model.JavacTypes;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import sbql4j8.com.sun.tools.javac.code.Symtab;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.main.JavaCompiler;
+import sbql4j8.com.sun.tools.javac.model.JavacTypes;
+import sbql4j8.com.sun.tools.javac.util.Context;
 
 /**
  * Scan javac Symtab looking for TypeMirrors and Elements, and ensure that

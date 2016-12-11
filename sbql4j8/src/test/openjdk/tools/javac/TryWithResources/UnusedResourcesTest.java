@@ -27,10 +27,10 @@
  * @summary False positive for -Xlint:try with nested try with resources blocks
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.ClientCodeWrapper;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.util.JCDiagnostic;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.ClientCodeWrapper;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.util.JCDiagnostic;
 import java.net.URI;
 import java.util.Arrays;
 import javax.tools.Diagnostic;

@@ -62,7 +62,7 @@ public class DescriptorTest {
     void javac(String... args) throws Exception {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.flush();
         String out = sw.toString();
         if (!out.isEmpty())
@@ -74,7 +74,7 @@ public class DescriptorTest {
     String javap(String... args) throws Exception {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         pw.flush();
         String out = sw.toString();
         if (!out.isEmpty())

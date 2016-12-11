@@ -27,7 +27,7 @@
  * @summary Verify that matching braces can appear within inline tags.
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 /**
  * This is a {@code test} comment.
@@ -57,7 +57,7 @@ public class InlineTagsWithBraces extends Doclet {
             new java.io.File(System.getProperty("test.src", "."),
                              "InlineTagsWithBraces.java");
 
-        if (com.sun.tools.javadoc.Main.execute(
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(
                 "javadoc",
                 "InlineTagsWithBraces",
                 InlineTagsWithBraces.class.getClassLoader(),

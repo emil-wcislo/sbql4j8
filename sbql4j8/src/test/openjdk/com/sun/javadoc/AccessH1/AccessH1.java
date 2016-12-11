@@ -30,7 +30,7 @@
  */
 
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.*;
 import java.io.*;
 
@@ -73,7 +73,7 @@ public class AccessH1 {
 
     /** Run javadoc */
     public static void runJavadoc(String[] javadocArgs) {
-        if (com.sun.tools.javadoc.Main.execute(javadocArgs) != 0) {
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(javadocArgs) != 0) {
             throw new Error("Javadoc failed to execute");
         }
     }

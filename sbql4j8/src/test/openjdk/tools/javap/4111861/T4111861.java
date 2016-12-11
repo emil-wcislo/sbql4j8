@@ -51,7 +51,7 @@ public class T4111861 {
     String javac(String... args) throws Exception {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         if (rc != 0)
             throw new Exception("javac failed, rc=" + rc);
         return sw.toString();
@@ -60,7 +60,7 @@ public class T4111861 {
     String javap(String... args) throws Exception {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         if (rc != 0)
             throw new Exception("javap failed, rc=" + rc);
         return sw.toString();

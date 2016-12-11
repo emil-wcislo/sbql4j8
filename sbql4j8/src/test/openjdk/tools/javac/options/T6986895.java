@@ -53,7 +53,7 @@ public class T6986895 {
         System.err.println("Test " + expect + ": " + Arrays.asList(args));
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         System.err.println("compilation failed; rc=" + rc);
         String out = sw.toString();

@@ -28,7 +28,7 @@
  * an annotation processor is present
  */
 
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 import java.io.IOException;
 import java.net.URI;
 import java.util.Arrays;

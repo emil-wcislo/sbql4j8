@@ -32,7 +32,7 @@ import java.io.*;
 import java.net.URI;
 import javax.tools.*;
 
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 
 import static org.openjdk.tests.separate.SourceModel.Type;
 import static org.openjdk.tests.separate.SourceModel.Class;

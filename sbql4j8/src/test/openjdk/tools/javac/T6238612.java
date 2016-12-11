@@ -23,10 +23,10 @@
 
 /*
  * @test
- * @summary com.sun.tools.util.List.toArray violates Collection spec
+ * @summary sbql4j8.com.sun.tools.util.List.toArray violates Collection spec
  */
 
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 public class T6238612 {
     public static void main(String... args) {

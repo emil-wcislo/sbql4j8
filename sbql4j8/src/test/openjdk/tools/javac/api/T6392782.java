@@ -30,9 +30,9 @@
 import java.io.*;
 import java.util.*;
 import javax.tools.*;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
-import com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.api.*;
 
 public class T6392782 {
     public static void main(String... args) throws IOException {

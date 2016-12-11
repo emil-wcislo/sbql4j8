@@ -32,9 +32,9 @@ import javax.tools.JavaCompiler;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;; // NOTE: extra semicolon for test
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.ImportTree;
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.ImportTree;
+import sbql4j8.com.sun.source.util.JavacTask;
 ; // NOTE: extra semicolon for test
 
 public class T6963934 {

@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 4909690
- * @summary AssertionError(com.sun.tools.javac.v8.code.Symbol$MethodSymbol.isOverridableIn)
+ * @summary AssertionError(sbql4j8.com.sun.tools.javac.v8.code.Symbol$MethodSymbol.isOverridableIn)
  * @author gafter
  *
  * @compile/fail B.java

@@ -76,7 +76,7 @@ public class T6824493 {
         };
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         if (rc != 0) {
             error("unexpected return code from javap: " + rc);
             return;

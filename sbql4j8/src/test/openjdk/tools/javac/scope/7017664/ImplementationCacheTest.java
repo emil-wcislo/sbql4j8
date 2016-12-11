@@ -27,13 +27,13 @@
  * @summary Basher for CompoundScopes
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.code.Symbol;
+import sbql4j8.com.sun.tools.javac.code.Types;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.Context;
 
-import com.sun.tools.javac.code.Symbol.*;
+import sbql4j8.com.sun.tools.javac.code.Symbol.*;
 
 import java.io.IOException;
 import java.net.URI;

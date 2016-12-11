@@ -25,7 +25,7 @@
  * @test
  * @bug 7126832
  * @compile java.java
- * @summary com.sun.tools.javac.api.ClientCodeWrapper$WrappedJavaFileManager cannot be cast
+ * @summary sbql4j8.com.sun.tools.javac.api.ClientCodeWrapper$WrappedJavaFileManager cannot be cast
  * @run main T7126832
  */
 
@@ -67,7 +67,7 @@ public class T7126832 {
         int rc = 0;
         String out = null;
         try {
-            rc = com.sun.tools.javah.Main.run(args.toArray(new String[args.size()]), pw);
+            rc = sbql4j8.com.sun.tools.javah.Main.run(args.toArray(new String[args.size()]), pw);
             out = sw.toString();
         } catch(Exception ee) {
             rc = 1;

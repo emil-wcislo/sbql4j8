@@ -36,13 +36,13 @@
  * maintenance of any nuclear facility.
  */
 
-import com.sun.tools.doclets.Taglet;
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.tools.doclets.Taglet;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.Map;
 
 /**
  * A sample Inline Taglet representing {@underline ...}. This tag can
- * be used in any kind of {@link com.sun.javadoc.Doc}.
+ * be used in any kind of {@link sbql4j8.com.sun.javadoc.Doc}.
  * The text is underlined.  For example,
  * "@underline UNDERLINE ME" would be shown as: <u>UNDERLINE ME</u>.
  *

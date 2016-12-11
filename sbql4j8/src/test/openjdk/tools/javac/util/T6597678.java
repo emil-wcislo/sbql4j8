@@ -38,10 +38,10 @@ import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 
 
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.JavacMessages;
-import com.sun.tools.javac.util.Log;
+import sbql4j8.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.JavacMessages;
+import sbql4j8.com.sun.tools.javac.util.Log;
 
 @SupportedOptions("WriterString")
 public class T6597678 extends JavacTestingAbstractProcessor {
@@ -65,7 +65,7 @@ public class T6597678 extends JavacTestingAbstractProcessor {
     }
 
     void compile(StringWriter sw, PrintWriter pw, String... args) throws Exception {
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         String out = sw.toString();
         if (!out.isEmpty())

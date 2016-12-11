@@ -33,7 +33,7 @@
  */
 
 import java.io.*;
-import com.sun.tools.doclets.formats.html.markup.*;
+import sbql4j8.com.sun.tools.doclets.formats.html.markup.*;
 
 /**
  * The class reads each file, complete with newlines, into a string to easily

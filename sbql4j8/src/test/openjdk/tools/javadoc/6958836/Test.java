@@ -74,7 +74,7 @@ public class Test {
         StringWriter noteSW = new StringWriter();
         PrintWriter notePW = new PrintWriter(noteSW);
 
-        int rc = com.sun.tools.javadoc.Main.execute("javadoc",
+        int rc = sbql4j8.com.sun.tools.javadoc.Main.execute("javadoc",
                               errPW, warnPW, notePW,
                               "com.sun.tools.doclets.standard.Standard",
                               getClass().getClassLoader(),

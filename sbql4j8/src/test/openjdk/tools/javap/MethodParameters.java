@@ -133,7 +133,7 @@ public class MethodParameters {
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
         //sun.tools.javap.Main.entry(args);
-        int rc = com.sun.tools.javap.Main.run(args, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, out);
         if (rc != 0)
             throw new Error("javap failed. rc=" + rc);
         out.close();
@@ -145,7 +145,7 @@ public class MethodParameters {
         System.err.println("compile: " + Arrays.asList(args));
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         String out = sw.toString();
         if (out.length() > 0)

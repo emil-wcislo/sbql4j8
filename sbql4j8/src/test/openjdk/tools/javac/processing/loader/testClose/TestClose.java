@@ -27,14 +27,14 @@
  * @summary javac should not close processorClassLoader before end of compilation
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.javac.api.ClientCodeWrapper.Trusted;
-import com.sun.tools.javac.api.BasicJavacTask;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TaskEvent;
+import sbql4j8.com.sun.source.util.TaskListener;
+import sbql4j8.com.sun.tools.javac.api.ClientCodeWrapper.Trusted;
+import sbql4j8.com.sun.tools.javac.api.BasicJavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import sbql4j8.com.sun.tools.javac.util.Context;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
@@ -72,9 +72,9 @@ public class TestClose implements TaskListener {
         "import javax.annotation.processing.*;\n" +
         "import javax.lang.model.*;\n" +
         "import javax.lang.model.element.*;\n" +
-        "import com.sun.source.util.*;\n" +
-        "import com.sun.tools.javac.processing.*;\n" +
-        "import com.sun.tools.javac.util.*;\n" +
+        "import sbql4j8.com.sun.source.util.*;\n" +
+        "import sbql4j8.com.sun.tools.javac.processing.*;\n" +
+        "import sbql4j8.com.sun.tools.javac.util.*;\n" +
         "@SupportedAnnotationTypes(\"*\")\n" +
         "public class AnnoProc extends AbstractProcessor {\n" +
         "    @Override\n" +

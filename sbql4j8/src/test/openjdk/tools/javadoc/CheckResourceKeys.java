@@ -30,7 +30,7 @@
 import java.io.*;
 import java.util.*;
 import javax.tools.*;
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 /**
  * Compare string constants in javadoc classes against keys in javadoc resource bundles.
@@ -158,7 +158,7 @@ public class CheckResourceKeys {
         }
 
         // special handling for code strings synthesized in
-        // com.sun.tools.doclets.internal.toolkit.util.Util.getTypeName
+        // sbql4j8.com.sun.tools.doclets.internal.toolkit.util.Util.getTypeName
         String[] extras = {
             "AnnotationType", "Class", "Enum", "Error", "Exception", "Interface"
         };
@@ -168,7 +168,7 @@ public class CheckResourceKeys {
         }
 
         // special handling for code strings synthesized in
-        // com.sun.tools.javadoc.Messager
+        // sbql4j8.com.sun.tools.javadoc.Messager
         results.add("javadoc.error.msg");
         results.add("javadoc.note.msg");
         results.add("javadoc.note.pos.msg");

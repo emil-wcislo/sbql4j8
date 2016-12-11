@@ -21,7 +21,7 @@
  * questions.
  */
 
-import com.sun.tools.doclets.internal.toolkit.Configuration;
+import sbql4j8.com.sun.tools.doclets.internal.toolkit.Configuration;
 
 /**
  * @test

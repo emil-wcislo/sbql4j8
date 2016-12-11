@@ -34,7 +34,7 @@
  *  @author Atul M Dambalkar
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.lang.*;
 
 public class ModifierAbstract {

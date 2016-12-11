@@ -54,7 +54,7 @@ class SJavacWrapper {
         if (sjavac_class.lastModified() < sjavac_java.lastModified()) {
             String[] javac_args = { "-d", testClasses.getPath(), sjavac_java.getPath() };
             System.err.println("Recompiling SJavac.java");
-            int rc = com.sun.tools.javac.Main.compile(javac_args);
+            int rc = sbql4j8.com.sun.tools.javac.Main.compile(javac_args);
             if (rc != 0)
                 throw new Exception("compilation failed");
         }

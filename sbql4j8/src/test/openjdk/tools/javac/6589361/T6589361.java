@@ -4,8 +4,8 @@
  * @summary 6589361:Failing building ct.sym file as part of the control build
  */
 
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.Context;
 import java.io.File;
 import javax.tools.FileObject;
 import javax.tools.JavaFileObject;

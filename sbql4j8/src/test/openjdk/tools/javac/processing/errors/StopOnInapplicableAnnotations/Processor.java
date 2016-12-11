@@ -21,14 +21,14 @@
  * questions.
  */
 
-import com.sun.source.tree.AnnotationTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreeScanner;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.source.tree.AnnotationTree;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;

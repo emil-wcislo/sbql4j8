@@ -24,7 +24,7 @@
 import java.io.*;
 import java.util.*;
 import javax.tools.*;
-import com.sun.tools.javap.*;
+import sbql4j8.com.sun.tools.javap.*;
 
 /*
  * @test
@@ -74,7 +74,7 @@ public class T4777949 {
     }
 
     File compileTestFile(File f) {
-        int rc = com.sun.tools.javac.Main.compile(new String[] { "-d", ".", f.getPath() });
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] { "-d", ".", f.getPath() });
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);
         String path = f.getPath();

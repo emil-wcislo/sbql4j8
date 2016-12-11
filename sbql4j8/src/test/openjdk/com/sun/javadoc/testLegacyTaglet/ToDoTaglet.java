@@ -21,13 +21,13 @@
  * questions.
  */
 
-import com.sun.tools.doclets.Taglet;
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.tools.doclets.Taglet;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.Map;
 
 /**
  * A sample Taglet representing @todo. This tag can be used in any kind of
- * {@link com.sun.javadoc.Doc}.  It is not an inline tag. The text is displayed
+ * {@link sbql4j8.com.sun.javadoc.Doc}.  It is not an inline tag. The text is displayed
  * in yellow to remind the developer to perform a task.  For
  * example, "@todo Fix this!" would be shown as:
  * <DL>

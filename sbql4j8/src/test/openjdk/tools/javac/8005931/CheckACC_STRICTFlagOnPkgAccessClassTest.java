@@ -40,14 +40,14 @@ import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.ToolProvider;
-import com.sun.source.util.JavacTask;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Descriptor;
-import com.sun.tools.classfile.Descriptor.InvalidDescriptor;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.Descriptor;
+import sbql4j8.com.sun.tools.classfile.Descriptor.InvalidDescriptor;
+import sbql4j8.com.sun.tools.classfile.Method;
 
-import static com.sun.tools.classfile.AccessFlags.ACC_STRICT;
+import static sbql4j8.com.sun.tools.classfile.AccessFlags.ACC_STRICT;
 
 public class CheckACC_STRICTFlagOnPkgAccessClassTest {
 

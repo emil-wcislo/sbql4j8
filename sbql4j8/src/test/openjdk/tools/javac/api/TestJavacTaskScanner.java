@@ -31,10 +31,10 @@
  * @run main TestJavacTaskScanner TestJavacTaskScanner.java
  */
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.parser.*;
-import com.sun.tools.javac.parser.Tokens.Token;
-import com.sun.tools.javac.util.*;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.parser.*;
+import sbql4j8.com.sun.tools.javac.parser.Tokens.Token;
+import sbql4j8.com.sun.tools.javac.util.*;
 import java.io.*;
 import java.net.*;
 import java.nio.*;

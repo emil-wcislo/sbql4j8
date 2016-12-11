@@ -35,7 +35,7 @@ import java.util.Set;
 import java.util.Collections;
 import javax.lang.model.element.TypeElement;
 import javax.annotation.processing.*;
-import com.sun.tools.javac.processing.AnnotationProcessingError;
+import sbql4j8.com.sun.tools.javac.processing.AnnotationProcessingError;
 
 
 public class T6412656 extends ToolTester {

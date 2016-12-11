@@ -28,26 +28,26 @@
  * @author  Jan Lahoda
  */
 
-import com.sun.source.tree.BinaryTree;
-import com.sun.source.tree.BlockTree;
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.ErroneousTree;
-import com.sun.source.tree.ExpressionStatementTree;
-import com.sun.source.tree.ExpressionTree;
-import com.sun.source.tree.MethodInvocationTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.tree.ModifiersTree;
-import com.sun.source.tree.StatementTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.tree.Tree.Kind;
-import com.sun.source.tree.VariableTree;
-import com.sun.source.tree.WhileLoopTree;
-import com.sun.source.util.SourcePositions;
-import com.sun.source.util.TreeScanner;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.source.tree.BinaryTree;
+import sbql4j8.com.sun.source.tree.BlockTree;
+import sbql4j8.com.sun.source.tree.ClassTree;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.ErroneousTree;
+import sbql4j8.com.sun.source.tree.ExpressionStatementTree;
+import sbql4j8.com.sun.source.tree.ExpressionTree;
+import sbql4j8.com.sun.source.tree.MethodInvocationTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.tree.ModifiersTree;
+import sbql4j8.com.sun.source.tree.StatementTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.tree.Tree.Kind;
+import sbql4j8.com.sun.source.tree.VariableTree;
+import sbql4j8.com.sun.source.tree.WhileLoopTree;
+import sbql4j8.com.sun.source.util.SourcePositions;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
 import java.io.IOException;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

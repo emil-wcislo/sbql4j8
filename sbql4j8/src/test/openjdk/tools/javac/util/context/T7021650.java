@@ -37,11 +37,11 @@ import javax.annotation.processing.*;
 import javax.lang.model.element.*;
 import javax.tools.*;
 
-import com.sun.tools.javac.comp.Attr;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.comp.Attr;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.main.Main;
+import sbql4j8.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import sbql4j8.com.sun.tools.javac.util.Context;
 
 public class T7021650 extends JavacTestingAbstractProcessor {
     public static void main(String... args) throws Exception {

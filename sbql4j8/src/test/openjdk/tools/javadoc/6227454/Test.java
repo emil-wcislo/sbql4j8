@@ -29,8 +29,8 @@
 
 import java.io.*;
 
-import com.sun.javadoc.Doclet;
-import com.sun.javadoc.RootDoc;
+import sbql4j8.com.sun.javadoc.Doclet;
+import sbql4j8.com.sun.javadoc.RootDoc;
 
 public class Test extends Doclet {
     public static void main(String... args) throws Exception {
@@ -75,7 +75,7 @@ public class Test extends Doclet {
 
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javadoc.Main.execute(
+        int rc = sbql4j8.com.sun.tools.javadoc.Main.execute(
                 "javadoc",
                 pw, pw, pw,
                 thisClassName,

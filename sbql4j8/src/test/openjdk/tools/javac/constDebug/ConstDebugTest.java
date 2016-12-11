@@ -29,8 +29,8 @@
  * @run main ConstDebugTest
  */
 import java.nio.file.Paths;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Method;
 
 public class ConstDebugTest {
 

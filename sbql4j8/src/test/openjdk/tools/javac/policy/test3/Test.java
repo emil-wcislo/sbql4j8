@@ -89,7 +89,7 @@ public class Test {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         System.err.println("compile " + args);
-        int rc = com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
         if (rc == 0)
             throw new Error("compilation succeeded unexpectedly");
         //System.err.println(sw);

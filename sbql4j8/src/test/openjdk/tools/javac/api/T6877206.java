@@ -34,9 +34,9 @@ import java.util.jar.*;
 import java.util.zip.*;
 import javax.tools.*;
 
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Options;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.Options;
 
 // Test URIs returned from JavacFileManager and its support classes.
 // For a variety of file objects, verify the validity of FileObject.toUri()

@@ -31,7 +31,7 @@ import java.io.*;
 import java.util.*;
 
 // verify that running a simple program, such as this one, does not trigger
-// the loading of ToolProvider or any com.sun.tools.javac class
+// the loading of ToolProvider or any sbql4j8.com.sun.tools.javac class
 public class HelloWorldTest {
     public static void main(String... args) throws Exception {
         if (args.length > 0) {

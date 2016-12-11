@@ -2521,7 +2521,7 @@ public class CoreReflectionFactory {
             // scanner.
             try {
                 //reflective form of
-                // return new com.sun.tools.javac.processing.PrintingProcessor.PrintingElementVisitor(w, getElements());
+                // return new sbql4j8.com.sun.tools.javac.processing.PrintingProcessor.PrintingElementVisitor(w, getElements());
                 Class<?> printProcClass =
                     ClassLoader.getSystemClassLoader().loadClass("com.sun.tools.javac.processing.PrintingProcessor$PrintingElementVisitor");
                 Constructor<?> printProcCtor = printProcClass.getConstructor(Writer.class, Elements.class);

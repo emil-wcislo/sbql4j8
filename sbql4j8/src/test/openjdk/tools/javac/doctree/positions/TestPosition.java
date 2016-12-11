@@ -29,14 +29,14 @@
  * @compile/ref=TestPosition.out -processor TestPosition -proc:only TestPositionSource.java
  */
 
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.doctree.DocTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.util.DocSourcePositions;
-import com.sun.source.util.DocTreeScanner;
-import com.sun.source.util.DocTrees;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.doctree.DocCommentTree;
+import sbql4j8.com.sun.source.doctree.DocTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.util.DocSourcePositions;
+import sbql4j8.com.sun.source.util.DocTreeScanner;
+import sbql4j8.com.sun.source.util.DocTrees;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.TreePathScanner;
 import java.io.IOException;
 import java.util.Set;
 import javax.annotation.processing.*;

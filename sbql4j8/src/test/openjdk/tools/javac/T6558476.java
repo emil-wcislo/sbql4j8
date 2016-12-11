@@ -34,7 +34,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Random;
 
-import com.sun.tools.javac.Main;
+import sbql4j8.com.sun.tools.javac.Main;
 
 public class T6558476 {
     private static File copyFileTo(File file, File directory) throws IOException {

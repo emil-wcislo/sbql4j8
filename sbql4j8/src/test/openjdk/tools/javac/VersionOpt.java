@@ -47,7 +47,7 @@ public class VersionOpt {
         // and not any development version being tested via -Xbootclasspath.
         // Check the version of the compiler being used, and let the test pass
         // automatically if is is a development version.
-        Class<?> javacClass = com.sun.tools.javac.Main.class;
+        Class<?> javacClass = sbql4j8.com.sun.tools.javac.Main.class;
         URL javacURL = getClass().getClassLoader().getResource(javacClass.getName().replace(".", "/") + ".class");
         if (!javacURL.getProtocol().equals("jar") || !javacURL.getFile().contains("!")) {
             System.err.println("javac not found in tools.jar: " + javacURL);
@@ -75,11 +75,11 @@ public class VersionOpt {
         System.out.println("java.runtime.version: " + javaRuntimeVersion);
 
         StringWriter sw = new StringWriter();
-        com.sun.tools.javac.Main.compile(new String[] { "-version" }, new PrintWriter(sw));
+        sbql4j8.com.sun.tools.javac.Main.compile(new String[] { "-version" }, new PrintWriter(sw));
         String javacVersion = sw.toString().trim();
 
         sw = new StringWriter();
-        com.sun.tools.javac.Main.compile(new String[] { "-fullversion" }, new PrintWriter(sw));
+        sbql4j8.com.sun.tools.javac.Main.compile(new String[] { "-fullversion" }, new PrintWriter(sw));
         String javacFullVersion = sw.toString().trim();
         System.out.println("javac -version: " + javacVersion);
         System.out.println("javac -fullversion: " + javacFullVersion);

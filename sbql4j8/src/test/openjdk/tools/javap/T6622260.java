@@ -51,7 +51,7 @@ public class T6622260 {
     }
 
     File compileTestFile(File f) {
-        int rc = com.sun.tools.javac.Main.compile(new String[] { f.getPath() });
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] { f.getPath() });
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);
         String path = f.getPath();
@@ -180,7 +180,7 @@ public class T6622260 {
     String javap(File f) {
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
-        int rc = com.sun.tools.javap.Main.run(new String[] { "-v", f.getPath() }, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(new String[] { "-v", f.getPath() }, out);
         if (rc != 0)
             throw new Error("javap failed. rc=" + rc);
         out.close();

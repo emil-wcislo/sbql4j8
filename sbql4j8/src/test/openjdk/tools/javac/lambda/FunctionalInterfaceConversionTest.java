@@ -44,7 +44,7 @@ import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.ToolProvider;
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 
 public class FunctionalInterfaceConversionTest
     extends JavacTestingAbstractThreadedTest

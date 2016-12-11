@@ -29,11 +29,11 @@
  * @run main T6551367 T6551367.java
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.io.File;
-import static com.sun.tools.javadoc.Main.execute;
+import static sbql4j8.com.sun.tools.javadoc.Main.execute;
 
-public class T6551367 extends com.sun.tools.doclets.standard.Standard {
+public class T6551367 extends sbql4j8.com.sun.tools.doclets.standard.Standard {
     public T6551367() {}
 
     /** Here, in the javadoc for this method, I try to link to

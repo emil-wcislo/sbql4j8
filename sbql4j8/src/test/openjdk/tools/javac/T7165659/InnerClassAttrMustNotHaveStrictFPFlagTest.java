@@ -31,12 +31,12 @@
 
 import java.io.File;
 
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.InnerClasses_attribute;
-import com.sun.tools.classfile.InnerClasses_attribute.Info;
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.classfile.AccessFlags;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.InnerClasses_attribute;
+import sbql4j8.com.sun.tools.classfile.InnerClasses_attribute.Info;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 
 public class InnerClassAttrMustNotHaveStrictFPFlagTest {
 

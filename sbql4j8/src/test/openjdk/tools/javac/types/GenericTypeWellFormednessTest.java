@@ -30,11 +30,11 @@
  * @run main GenericTypeWellFormednessTest
  */
 
-import com.sun.tools.javac.code.BoundKind;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.*;
+import sbql4j8.com.sun.tools.javac.code.BoundKind;
+import sbql4j8.com.sun.tools.javac.code.Type;
+import sbql4j8.com.sun.tools.javac.code.Type.*;
+import sbql4j8.com.sun.tools.javac.code.Symbol;
+import sbql4j8.com.sun.tools.javac.code.Symbol.*;
 import java.lang.reflect.Array;
 
 /**

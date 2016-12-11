@@ -57,7 +57,7 @@ public class MethodRefDupInConstantPoolTest {
         StringWriter s;
         String out;
         try (PrintWriter pw = new PrintWriter(s = new StringWriter())) {
-            com.sun.tools.javap.Main.run(params, pw);
+            sbql4j8.com.sun.tools.javap.Main.run(params, pw);
             out = s.toString();
         }
         String constantPool = getConstantPool(out);

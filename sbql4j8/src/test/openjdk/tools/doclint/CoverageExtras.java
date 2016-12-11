@@ -27,10 +27,10 @@
  * @summary Supplementary test cases needed for doclint
  */
 
-import com.sun.tools.doclint.Checker;
-import com.sun.tools.doclint.Entity;
-import com.sun.tools.doclint.HtmlTag;
-import com.sun.tools.doclint.Messages;
+import sbql4j8.com.sun.tools.doclint.Checker;
+import sbql4j8.com.sun.tools.doclint.Entity;
+import sbql4j8.com.sun.tools.doclint.HtmlTag;
+import sbql4j8.com.sun.tools.doclint.Messages;
 import java.util.Objects;
 
 public class CoverageExtras {

@@ -266,7 +266,7 @@ public class TestWarnErrorCount extends JavacTestingAbstractProcessor {
     String compile(String... args) {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         String out = sw.toString();
         if (!out.isEmpty())

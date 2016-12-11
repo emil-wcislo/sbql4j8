@@ -21,4 +21,4 @@
  * questions.
  */
 
-package com.sun.foo.bar.baz;
+package sbql4j8.com.sun.foo.bar.baz;

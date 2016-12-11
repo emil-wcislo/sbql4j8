@@ -30,12 +30,12 @@
  * @run main ResolveHarness
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.ClientCodeWrapper.DiagnosticSourceUnwrapper;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Type.MethodType;
-import com.sun.tools.javac.util.JCDiagnostic;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.ClientCodeWrapper.DiagnosticSourceUnwrapper;
+import sbql4j8.com.sun.tools.javac.code.Flags;
+import sbql4j8.com.sun.tools.javac.code.Symbol;
+import sbql4j8.com.sun.tools.javac.code.Type.MethodType;
+import sbql4j8.com.sun.tools.javac.util.JCDiagnostic;
 
 import java.io.File;
 import java.util.Set;

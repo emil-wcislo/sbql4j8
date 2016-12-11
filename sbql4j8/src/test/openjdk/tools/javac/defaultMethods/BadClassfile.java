@@ -30,13 +30,13 @@
  * @run main BadClassfile
  */
 
-import com.sun.tools.classfile.*;
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.jvm.ClassReader.BadClassFile;
-import com.sun.tools.javac.jvm.Target;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.JCDiagnostic;
+import sbql4j8.com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.code.Symbol;
+import sbql4j8.com.sun.tools.javac.jvm.ClassReader.BadClassFile;
+import sbql4j8.com.sun.tools.javac.jvm.Target;
+import sbql4j8.com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.JCDiagnostic;
 import java.io.File;
 import java.util.Arrays;
 import java.util.Objects;
@@ -64,7 +64,7 @@ public class BadClassfile {
         JavacTaskImpl task = (JavacTaskImpl) c.getTask(null, null, null, Arrays.asList("-classpath", System.getProperty("test.classes", ".")), null, null);
 
         try {
-            Symbol clazz = com.sun.tools.javac.main.JavaCompiler.instance(task.getContext()).resolveIdent(classname);
+            Symbol clazz = sbql4j8.com.sun.tools.javac.main.JavaCompiler.instance(task.getContext()).resolveIdent(classname);
 
             clazz.complete();
         } catch (BadClassFile f) {

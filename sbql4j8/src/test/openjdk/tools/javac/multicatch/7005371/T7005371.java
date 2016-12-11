@@ -29,11 +29,11 @@
  * @run main T7005371
  */
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.LocalVariableTypeTable_attribute;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.LocalVariableTypeTable_attribute;
+import sbql4j8.com.sun.tools.classfile.Method;
 
 import java.io.*;
 

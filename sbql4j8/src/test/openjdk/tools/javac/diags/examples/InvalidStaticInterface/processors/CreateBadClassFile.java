@@ -21,10 +21,10 @@
  * questions.
  */
 
-import com.sun.tools.classfile.*;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Class_info;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8_info;
-import com.sun.tools.classfile.ConstantPool.CPInfo;
+import sbql4j8.com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.CONSTANT_Class_info;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.CONSTANT_Utf8_info;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.CPInfo;
 import java.io.*;
 import java.util.*;
 import javax.annotation.processing.*;

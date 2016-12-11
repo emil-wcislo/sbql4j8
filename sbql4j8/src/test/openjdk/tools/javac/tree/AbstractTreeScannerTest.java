@@ -26,13 +26,13 @@ import java.lang.reflect.*;
 import java.util.*;
 import javax.tools.*;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 public abstract class AbstractTreeScannerTest {
 

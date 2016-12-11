@@ -30,7 +30,7 @@
 import java.io.*;
 
 // verify that running accessing ToolProvider by itself does not
-// trigger loading com.sun.tools.javac.*
+// trigger loading sbql4j8.com.sun.tools.javac.*
 public class ToolProviderTest1 {
     public static void main(String... args) throws Exception {
         if (args.length > 0) {

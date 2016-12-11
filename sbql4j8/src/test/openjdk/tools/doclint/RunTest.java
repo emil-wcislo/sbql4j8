@@ -37,8 +37,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import com.sun.tools.doclint.DocLint;
-import com.sun.tools.doclint.DocLint.BadArgs;
+import sbql4j8.com.sun.tools.doclint.DocLint;
+import sbql4j8.com.sun.tools.doclint.DocLint.BadArgs;
 
 /** javadoc error on toplevel:  a & b. */
 public class RunTest {

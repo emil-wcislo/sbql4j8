@@ -33,8 +33,8 @@ import javax.annotation.processing.*;
 import javax.lang.model.*;
 import javax.lang.model.element.*;
 import javax.tools.*;
-import com.sun.source.util.*;
-import com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.api.*;
 import static javax.lang.model.util.ElementFilter.*;
 
 

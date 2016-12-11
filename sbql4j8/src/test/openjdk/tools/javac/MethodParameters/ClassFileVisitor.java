@@ -22,11 +22,11 @@
  */
 
 import java.io.*;
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 /**
  * The {@code ClassFileVisitor} reads a class file using the
- * {@code com.sun.tools.classfile} library. It iterates over the methods
+ * {@code sbql4j8.com.sun.tools.classfile} library. It iterates over the methods
  * in a class, and checks MethodParameters attributes against JLS
  * requirements, as well as assumptions about the javac implementations.
  * <p>

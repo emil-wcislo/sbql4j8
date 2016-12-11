@@ -45,34 +45,34 @@ import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 
-import com.sun.source.tree.MethodInvocationTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.tree.MethodInvocationTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.util.TaskEvent;
+import sbql4j8.com.sun.source.util.TaskListener;
+import sbql4j8.com.sun.source.util.TreeScanner;
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.BootstrapMethods_attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool.*;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.LineNumberTable_attribute;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.BootstrapMethods_attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.*;
+import sbql4j8.com.sun.tools.classfile.Instruction;
+import sbql4j8.com.sun.tools.classfile.LineNumberTable_attribute;
+import sbql4j8.com.sun.tools.classfile.Method;
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.code.Symbol;
-import com.sun.tools.javac.code.Symbol.MethodSymbol;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.jvm.Pool;
-import com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
-import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
-import com.sun.tools.javac.tree.JCTree.JCIdent;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Names;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.code.Symbol;
+import sbql4j8.com.sun.tools.javac.code.Symbol.MethodSymbol;
+import sbql4j8.com.sun.tools.javac.code.Symtab;
+import sbql4j8.com.sun.tools.javac.code.Types;
+import sbql4j8.com.sun.tools.javac.jvm.Pool;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCMethodInvocation;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCMethodDecl;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCIdent;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.Names;
 
-import static com.sun.tools.javac.jvm.ClassFile.*;
+import static sbql4j8.com.sun.tools.javac.jvm.ClassFile.*;
 
 public class TestInvokeDynamic
     extends JavacTestingAbstractThreadedTest

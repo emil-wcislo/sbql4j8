@@ -36,7 +36,7 @@ public class Test {
             "-d", "out",
             new File(testSrc, Test.class.getSimpleName() + ".java").getPath()
         };
-        int rc = com.sun.tools.javadoc.Main.execute(jdoc_args);
+        int rc = sbql4j8.com.sun.tools.javadoc.Main.execute(jdoc_args);
         if (rc != 0)
             throw new Exception("unexpected return code from javadoc: " + rc);
     }

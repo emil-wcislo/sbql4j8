@@ -28,7 +28,7 @@
  *  check that all diagnostics are dumped to output when compiler exits abruptly
  */
 
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.StringWriter;

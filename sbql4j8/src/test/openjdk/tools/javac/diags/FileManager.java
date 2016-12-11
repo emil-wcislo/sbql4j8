@@ -38,7 +38,7 @@ import javax.tools.JavaFileManager.Location;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 
-import com.sun.tools.javac.api.WrappingJavaFileManager;
+import sbql4j8.com.sun.tools.javac.api.WrappingJavaFileManager;
 
 /**
  * A JavaFileManager that can throw IOException on attempting to read or write

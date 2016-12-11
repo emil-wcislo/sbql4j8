@@ -30,10 +30,10 @@
  * @compile -processor ModelChecker Model01.java
  */
 
-import com.sun.source.tree.CatchTree;
-import com.sun.source.util.TreePathScanner;
-import com.sun.source.util.Trees;
-import com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.tree.CatchTree;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.source.util.TreePath;
 
 import java.util.Set;
 import javax.annotation.processing.RoundEnvironment;

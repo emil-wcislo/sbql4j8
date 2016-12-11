@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug     6289436
- * @summary com.sun.tools.javac.util.List.from(A[]) shouldn't be deprecated
+ * @summary sbql4j8.com.sun.tools.javac.util.List.from(A[]) shouldn't be deprecated
  * @author  Peter von der Ah\u00e9
  * @library ../..
  * @compile ../../util/list/FromArray.java
@@ -33,7 +33,7 @@
 
 package util.list;
 
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 public class FromArray {
     public static void test(String... args) {

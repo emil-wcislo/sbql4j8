@@ -34,9 +34,9 @@ import java.io.*;
 import java.util.*;
 import javax.tools.*;
 
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Options;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.Options;
 
 import static javax.tools.JavaFileObject.Kind.*;
 import static javax.tools.StandardLocation.*;

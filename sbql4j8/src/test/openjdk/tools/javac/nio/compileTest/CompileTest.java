@@ -35,8 +35,8 @@ import java.util.*;
 import java.util.jar.*;
 import javax.tools.*;
 
-import com.sun.tools.javac.nio.*;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.nio.*;
+import sbql4j8.com.sun.tools.javac.util.Context;
 import java.nio.file.spi.FileSystemProvider;
 
 

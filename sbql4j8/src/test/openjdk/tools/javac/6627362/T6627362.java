@@ -80,13 +80,13 @@ public class T6627362 {
     }
 
     void compile(String... args) {
-        int rc = com.sun.tools.javac.Main.compile(args);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args);
         if (rc != 0)
             throw new Error("javac failed: " + Arrays.asList(args) + ": " + rc);
     }
 
     void javap(PrintWriter out, String... args) throws Exception {
-        int rc = com.sun.tools.javap.Main.run(args, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, out);
         if (rc != 0)
             throw new Error("javap failed: " + Arrays.asList(args) + ": " + rc);
     }

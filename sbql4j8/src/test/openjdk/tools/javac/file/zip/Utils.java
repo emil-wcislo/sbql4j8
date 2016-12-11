@@ -43,8 +43,8 @@ public class Utils {
     static final sun.tools.jar.Main jarTool =
             new sun.tools.jar.Main(System.out, System.err, "jar-tool");
 
-    static final com.sun.tools.javac.Main javac =
-            new com.sun.tools.javac.Main();
+    static final sbql4j8.com.sun.tools.javac.Main javac =
+            new sbql4j8.com.sun.tools.javac.Main();
 
     private Utils(){}
 

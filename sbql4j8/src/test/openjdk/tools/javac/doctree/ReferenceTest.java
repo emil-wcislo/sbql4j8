@@ -24,23 +24,23 @@
 /*
  * @test
  * @bug 7021614
- * @summary extend com.sun.source API to support parsing javadoc comments
+ * @summary extend sbql4j8.com.sun.source API to support parsing javadoc comments
  * @summary check references in at-see and {at-link} tags
  * @build ReferenceTest
  * @compile -processor ReferenceTest -proc:only ReferenceTest.java
  */
 
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.doctree.DocTree;
-import com.sun.source.doctree.LinkTree;
-import com.sun.source.doctree.ReferenceTree;
-import com.sun.source.doctree.SeeTree;
-import com.sun.source.doctree.TextTree;
-import com.sun.source.util.DocTreePath;
-import com.sun.source.util.DocTreePathScanner;
-import com.sun.source.util.DocTreeScanner;
-import com.sun.source.util.DocTrees;
-import com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.doctree.DocCommentTree;
+import sbql4j8.com.sun.source.doctree.DocTree;
+import sbql4j8.com.sun.source.doctree.LinkTree;
+import sbql4j8.com.sun.source.doctree.ReferenceTree;
+import sbql4j8.com.sun.source.doctree.SeeTree;
+import sbql4j8.com.sun.source.doctree.TextTree;
+import sbql4j8.com.sun.source.util.DocTreePath;
+import sbql4j8.com.sun.source.util.DocTreePathScanner;
+import sbql4j8.com.sun.source.util.DocTreeScanner;
+import sbql4j8.com.sun.source.util.DocTrees;
+import sbql4j8.com.sun.source.util.TreePath;
 
 import java.util.List;
 import java.util.Set;

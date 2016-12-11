@@ -36,12 +36,12 @@ import javax.annotation.processing.*;
 import javax.lang.model.element.*;
 import static javax.tools.Diagnostic.Kind.*;
 
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTrees;
-import com.sun.tools.javac.model.JavacElements;
-import com.sun.tools.javac.model.JavacTypes;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTrees;
+import sbql4j8.com.sun.tools.javac.model.JavacElements;
+import sbql4j8.com.sun.tools.javac.model.JavacTypes;
+import sbql4j8.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import sbql4j8.com.sun.tools.javac.util.Context;
 
 public class TestContext extends JavacTestingAbstractProcessor {
 

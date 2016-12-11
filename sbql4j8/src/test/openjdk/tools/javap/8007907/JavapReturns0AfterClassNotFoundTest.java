@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 8007907
- * @summary javap, method com.sun.tools.javap.Main.run returns 0 even in case
+ * @summary javap, method sbql4j8.com.sun.tools.javap.Main.run returns 0 even in case
  * of class not found error
  */
 
@@ -56,7 +56,7 @@ public class JavapReturns0AfterClassNotFoundTest {
         StringWriter s;
         String out;
         try (PrintWriter pw = new PrintWriter(s = new StringWriter())) {
-            result = com.sun.tools.javap.Main.run(params, pw);
+            result = sbql4j8.com.sun.tools.javap.Main.run(params, pw);
             //no line separator, no problem
             out = s.toString().trim();
         }

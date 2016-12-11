@@ -36,22 +36,22 @@ import javax.lang.model.element.Name;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 
-import com.sun.source.doctree.*;
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.tree.VariableTree;
-import com.sun.source.util.DocTreeScanner;
-import com.sun.source.util.DocTrees;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.TreePathScanner;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.tree.DCTree;
-import com.sun.tools.javac.tree.DCTree.DCDocComment;
-import com.sun.tools.javac.tree.DCTree.DCErroneous;
-import com.sun.tools.javac.tree.DocPretty;
+import sbql4j8.com.sun.source.doctree.*;
+import sbql4j8.com.sun.source.tree.ClassTree;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.tree.VariableTree;
+import sbql4j8.com.sun.source.util.DocTreeScanner;
+import sbql4j8.com.sun.source.util.DocTrees;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.tree.DCTree;
+import sbql4j8.com.sun.tools.javac.tree.DCTree.DCDocComment;
+import sbql4j8.com.sun.tools.javac.tree.DCTree.DCErroneous;
+import sbql4j8.com.sun.tools.javac.tree.DocPretty;
 
 public class DocCommentTester {
 

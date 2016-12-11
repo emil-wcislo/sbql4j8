@@ -24,7 +24,7 @@
 package p;
 
 import java.io.*;
-import com.sun.tools.javadoc.Main;
+import sbql4j8.com.sun.tools.javadoc.Main;
 
 public class OutputRedirect {
 

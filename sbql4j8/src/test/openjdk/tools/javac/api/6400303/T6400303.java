@@ -33,9 +33,9 @@
 
 import javax.tools.ToolProvider;
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.code.Symbol.CompletionFailure;
-import com.sun.tools.javac.main.JavaCompiler;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.code.Symbol.CompletionFailure;
+import sbql4j8.com.sun.tools.javac.main.JavaCompiler;
 
 public class T6400303 {
     public static void main(String... args) {

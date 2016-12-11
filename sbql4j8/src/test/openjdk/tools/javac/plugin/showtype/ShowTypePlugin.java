@@ -21,16 +21,16 @@
  * questions.
  */
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.IdentifierTree;
-import com.sun.source.tree.MemberSelectTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.Plugin;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.source.util.TreePathScanner;
-import com.sun.source.util.Trees;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.IdentifierTree;
+import sbql4j8.com.sun.source.tree.MemberSelectTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.Plugin;
+import sbql4j8.com.sun.source.util.TaskEvent;
+import sbql4j8.com.sun.source.util.TaskListener;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.util.Trees;
 import java.util.regex.Pattern;
 import javax.lang.model.type.TypeMirror;
 import javax.tools.Diagnostic.Kind;

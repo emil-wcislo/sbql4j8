@@ -29,7 +29,7 @@
  * @run main Driver Constructors
  */
 
-import static com.sun.tools.classfile.TypeAnnotation.TargetType.*;
+import static sbql4j8.com.sun.tools.classfile.TypeAnnotation.TargetType.*;
 
 public class Constructors {
 

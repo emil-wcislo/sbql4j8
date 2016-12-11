@@ -35,8 +35,8 @@ import javax.lang.model.element.*;
 import javax.tools.Diagnostic;
 import static javax.lang.model.util.ElementFilter.*;
 
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 
 @SupportedOptions({"test", "last"})
 @SupportedAnnotationTypes("*")
@@ -73,7 +73,7 @@ public class TestGetElement extends AbstractProcessor {
 
             StringWriter sw = new StringWriter();
             PrintWriter pw = new PrintWriter(sw);
-            int rc = com.sun.tools.javac.Main.compile(args, pw);
+            int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
             pw.close();
             String out = sw.toString();
             if (out != null)

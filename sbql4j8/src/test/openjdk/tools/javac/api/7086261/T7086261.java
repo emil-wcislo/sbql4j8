@@ -29,8 +29,8 @@
 
 import javax.tools.*;
 
-import com.sun.tools.javac.api.ClientCodeWrapper.DiagnosticSourceUnwrapper;
-import com.sun.tools.javac.util.JCDiagnostic;
+import sbql4j8.com.sun.tools.javac.api.ClientCodeWrapper.DiagnosticSourceUnwrapper;
+import sbql4j8.com.sun.tools.javac.util.JCDiagnostic;
 
 import java.net.URI;
 import java.util.Arrays;

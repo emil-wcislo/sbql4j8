@@ -92,7 +92,7 @@ import static javax.tools.Diagnostic.Kind.*;
  *
  * <li> Implement checks of package names
  *
- * <li> Use the Tree API, com.sun.source, to examine names within method bodies
+ * <li> Use the Tree API, sbql4j8.com.sun.source, to examine names within method bodies
  *
  * <li> Define an annotation type whose presence can indicate a
  * different naming convention is being followed
@@ -245,7 +245,7 @@ public class CheckNamesProcessor extends AbstractProcessor {
                 // else constructors and initializers don't have user-defined names
 
                 // At this point, could use the Tree API,
-                // com.sun.source, to examine the names of entities
+                // sbql4j8.com.sun.source, to examine the names of entities
                 // inside a method.
                 super.visitExecutable(e, p);
                 return null;

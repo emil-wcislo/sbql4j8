@@ -30,7 +30,7 @@
  */
 
 import java.util.*;
-import com.sun.source.tree.*;
+import sbql4j8.com.sun.source.tree.*;
 import javax.lang.model.element.*;
 import javax.lang.model.util.*;
 

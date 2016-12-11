@@ -65,7 +65,7 @@ public class T4880672
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
         String[] args = { "-XDinner", "-classpath", testClasses, className };
-        int rc = com.sun.tools.javap.Main.run(args, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, out);
         out.close();
         String output = sw.toString();
         System.out.println("class " + className);

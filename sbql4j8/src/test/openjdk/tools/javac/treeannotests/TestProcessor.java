@@ -29,12 +29,12 @@ import javax.lang.model.element.*;
 import javax.lang.model.util.*;
 import javax.tools.*;
 
-import com.sun.source.util.*;
-import com.sun.tools.javac.code.BoundKind;
-import com.sun.tools.javac.tree.JCTree.*;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.code.BoundKind;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.*;
+import sbql4j8.com.sun.tools.javac.tree.TreeScanner;
+import sbql4j8.com.sun.tools.javac.tree.*;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 /**
  * Test processor used to check test programs using the @Test, @DA, and @TA

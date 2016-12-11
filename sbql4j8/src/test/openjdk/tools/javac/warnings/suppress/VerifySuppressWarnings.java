@@ -21,19 +21,19 @@
  * questions.
  */
 
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.tree.NewClassTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.tree.VariableTree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreeScanner;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
+import sbql4j8.com.sun.source.tree.ClassTree;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.tree.NewClassTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.tree.VariableTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.code.Flags;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCMethodDecl;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;

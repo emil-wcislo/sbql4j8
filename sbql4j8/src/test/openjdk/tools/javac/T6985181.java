@@ -52,7 +52,7 @@ public class T6985181 {
     void compile(String... args) throws Exception {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         String out = sw.toString();
         if (out.length() > 0)
@@ -65,7 +65,7 @@ public class T6985181 {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] args = { "-v", classFile.getPath() };
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         pw.close();
         String out = sw.toString();
         if (out.length() > 0)

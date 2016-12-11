@@ -30,7 +30,7 @@
 import java.io.*;
 import java.util.*;
 import javax.tools.*;
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 /**
  * Compare string constants in javac classes against keys in javac resource bundles.

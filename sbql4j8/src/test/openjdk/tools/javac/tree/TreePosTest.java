@@ -69,21 +69,21 @@ import javax.tools.DiagnosticListener;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.tree.EndPosTable;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCAnnotatedType;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.tree.JCTree.JCNewClass;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.tree.TreeInfo;
-import com.sun.tools.javac.tree.TreeScanner;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.code.Flags;
+import sbql4j8.com.sun.tools.javac.tree.EndPosTable;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCAnnotatedType;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCNewClass;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import sbql4j8.com.sun.tools.javac.tree.TreeInfo;
+import sbql4j8.com.sun.tools.javac.tree.TreeScanner;
 
-import static com.sun.tools.javac.tree.JCTree.Tag.*;
-import static com.sun.tools.javac.util.Position.NOPOS;
+import static sbql4j8.com.sun.tools.javac.tree.JCTree.Tag.*;
+import static sbql4j8.com.sun.tools.javac.util.Position.NOPOS;
 
 /**
  * Utility and test program to check validity of tree positions for tree nodes.

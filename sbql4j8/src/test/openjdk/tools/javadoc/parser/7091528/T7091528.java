@@ -50,8 +50,8 @@ public class T7091528 {
 
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        String doclet = com.sun.tools.doclets.standard.Standard.class.getName();
-        int rc = com.sun.tools.javadoc.Main.execute("javadoc", pw, pw, pw, doclet, args);
+        String doclet = sbql4j8.com.sun.tools.doclets.standard.Standard.class.getName();
+        int rc = sbql4j8.com.sun.tools.javadoc.Main.execute("javadoc", pw, pw, pw, doclet, args);
         pw.close();
 
         String out = sw.toString();

@@ -26,7 +26,7 @@ import java.io.*;
 import java.net.URL;
 import java.util.List;
 
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 /*
  * @test ClassLiterals

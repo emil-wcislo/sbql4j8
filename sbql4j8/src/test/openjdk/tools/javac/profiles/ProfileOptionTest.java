@@ -49,10 +49,10 @@ import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.StandardJavaFileManager;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.jvm.Profile;
-import com.sun.tools.javac.jvm.Target;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.jvm.Profile;
+import sbql4j8.com.sun.tools.javac.jvm.Target;
 
 
 public class ProfileOptionTest {
@@ -87,7 +87,7 @@ public class ProfileOptionTest {
         String[] opts = { "-profile", badName };
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(opts, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(opts, pw);
 
         // sadly, command line errors are not (yet?) reported to
         // the diag listener
@@ -180,7 +180,7 @@ public class ProfileOptionTest {
 
         init(Profile.COMPACT3,
                 javax.sql.rowset.Predicate.class,
-                com.sun.security.auth.PolicyFile.class); // specifically included in 3
+                sbql4j8.com.sun.security.auth.PolicyFile.class); // specifically included in 3
 
         init(Profile.DEFAULT,
                 java.beans.BeanInfo.class,

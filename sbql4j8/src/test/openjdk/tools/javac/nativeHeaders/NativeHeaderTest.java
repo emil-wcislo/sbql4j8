@@ -44,8 +44,8 @@ import java.util.Set;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 
 public class NativeHeaderTest {
     public static void main(String... args) throws Exception {
@@ -165,7 +165,7 @@ public class NativeHeaderTest {
                 args.add(headersDir.getPath());
                 for (File f: files)
                     args.add(f.getPath());
-                int rc = com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]));
+                int rc = sbql4j8.com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]));
                 if (rc != 0)
                     throw new Exception("compilation failed, rc=" + rc);
                 break;

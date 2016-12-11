@@ -40,7 +40,7 @@ public class T4884240 {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] args = { "-sysinfo", "java.lang.Object" };
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         if (rc != 0)
             throw new Exception("unexpected return code: " + rc);
         pw.close();

@@ -27,7 +27,7 @@
  * @summary Add new doclint package
  */
 
-import com.sun.tools.doclint.DocLint;
+import sbql4j8.com.sun.tools.doclint.DocLint;
 
 public class OptionTest {
     public static void main(String... args) throws Exception {

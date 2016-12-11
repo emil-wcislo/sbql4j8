@@ -23,7 +23,7 @@
 
 import java.io.*;
 import java.util.*;
-import com.sun.tools.javac.main.Main;
+import sbql4j8.com.sun.tools.javac.main.Main;
 
 /*
  * Utility class to emulate jtreg @compile/fail, but also checking the specific
@@ -50,7 +50,7 @@ public class CompileFail {
                 javacArgs.add(arg);
         }
 
-        int rc = com.sun.tools.javac.Main.compile(
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(
             javacArgs.toArray(new String[javacArgs.size()]));
 
         if (rc != expected_rc)

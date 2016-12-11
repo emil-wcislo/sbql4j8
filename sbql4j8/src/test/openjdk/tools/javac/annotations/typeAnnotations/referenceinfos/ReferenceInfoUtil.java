@@ -26,15 +26,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.TypeAnnotation;
-import com.sun.tools.classfile.Field;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.classfile.RuntimeTypeAnnotations_attribute;
-import com.sun.tools.classfile.ConstantPool.InvalidIndex;
-import com.sun.tools.classfile.ConstantPool.UnexpectedEntry;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.TypeAnnotation;
+import sbql4j8.com.sun.tools.classfile.Field;
+import sbql4j8.com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.RuntimeTypeAnnotations_attribute;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.InvalidIndex;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.UnexpectedEntry;
 
 public class ReferenceInfoUtil {
 

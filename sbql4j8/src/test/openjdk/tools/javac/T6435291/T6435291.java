@@ -29,9 +29,9 @@
  * @run main/othervm T6435291
  */
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.jvm.ClassReader.BadClassFile;
-import com.sun.tools.javac.main.JavaCompiler;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.jvm.ClassReader.BadClassFile;
+import sbql4j8.com.sun.tools.javac.main.JavaCompiler;
 import javax.tools.ToolProvider;
 
 public class T6435291 {

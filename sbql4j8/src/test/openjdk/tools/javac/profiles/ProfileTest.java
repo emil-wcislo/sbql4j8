@@ -32,7 +32,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import com.sun.tools.javac.sym.Profiles;
+import sbql4j8.com.sun.tools.javac.sym.Profiles;
 
 public class ProfileTest {
     public static void main(String... args) throws Exception {

@@ -21,7 +21,7 @@
  * questions.
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 /*
  * @test

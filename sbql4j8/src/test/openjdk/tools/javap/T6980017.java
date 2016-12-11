@@ -44,7 +44,7 @@ public class T6980017 {
 
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         pw.close();
         if (rc != 0)
             error("Unexpected exit code: " + rc);

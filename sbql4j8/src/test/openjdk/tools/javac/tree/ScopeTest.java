@@ -29,16 +29,16 @@
  * @run main ScopeTest
  */
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.MemberSelectTree;
-import com.sun.source.tree.Scope;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.TreePathScanner;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.model.JavacTypes;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.MemberSelectTree;
+import sbql4j8.com.sun.source.tree.Scope;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.model.JavacTypes;
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;

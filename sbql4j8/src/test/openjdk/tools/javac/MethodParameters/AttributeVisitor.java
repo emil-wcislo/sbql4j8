@@ -21,7 +21,7 @@
  * questions.
  */
 
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 /**
  * Trivial {@code Attribute.Visitor} implementation, to make it easy to

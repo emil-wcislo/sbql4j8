@@ -33,12 +33,12 @@ import java.util.List;
 import javax.annotation.processing.*;
 import javax.lang.model.element.*;
 import javax.tools.*;
-import com.sun.source.util.*;
-import com.sun.tools.javac.api.*;
-import com.sun.tools.javac.file.*;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.*;
-import com.sun.tools.javac.util.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.tools.javac.file.*;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.main.*;
+import sbql4j8.com.sun.tools.javac.util.*;
 
 
 @SupportedAnnotationTypes("*")

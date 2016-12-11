@@ -29,9 +29,9 @@
  * @run main DuplicateConstantPoolEntry
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;

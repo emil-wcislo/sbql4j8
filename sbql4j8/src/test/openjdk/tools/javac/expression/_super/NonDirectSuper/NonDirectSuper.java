@@ -35,13 +35,13 @@ package test;
 
 import java.io.File;
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool.CPRefInfo;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.classfile.Opcode;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.CPRefInfo;
+import sbql4j8.com.sun.tools.classfile.Instruction;
+import sbql4j8.com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.Opcode;
 
 public class NonDirectSuper {
     public static void main(String... args) {

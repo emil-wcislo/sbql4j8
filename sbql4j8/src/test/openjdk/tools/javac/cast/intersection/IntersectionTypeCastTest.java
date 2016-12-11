@@ -42,9 +42,9 @@ import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.ToolProvider;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.util.ListBuffer;
 
 public class IntersectionTypeCastTest
     extends JavacTestingAbstractThreadedTest

@@ -25,7 +25,7 @@
  * @test
  * @bug 8026180
  * @summary Ensuring javax.lang.model.**, javax.tools.**, javax.annotation.processing.**
- *          and com.sun.source.** don't export inappropriate types.
+ *          and sbql4j8.com.sun.source.** don't export inappropriate types.
  * @library /tools/javac/lib
  * @build JavacTestingAbstractProcessor NoPrivateTypesExported
  * @compile -processor NoPrivateTypesExported NoPrivateTypesExported.java

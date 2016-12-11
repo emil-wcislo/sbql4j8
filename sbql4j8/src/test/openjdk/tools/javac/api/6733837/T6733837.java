@@ -39,7 +39,7 @@ import java.util.List;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import static javax.tools.JavaFileObject.Kind;
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 
 public class T6733837 extends ToolTester {
 

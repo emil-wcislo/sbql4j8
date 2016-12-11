@@ -32,16 +32,16 @@ import java.io.OutputStream;
 import java.net.URI;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.parser.Parser;
-import com.sun.tools.javac.parser.ParserFactory;
-import com.sun.tools.javac.tree.EndPosTable;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Log;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.Options;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.parser.Parser;
+import sbql4j8.com.sun.tools.javac.parser.ParserFactory;
+import sbql4j8.com.sun.tools.javac.tree.EndPosTable;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.TreeScanner;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.Log;
+import sbql4j8.com.sun.tools.javac.util.JCDiagnostic;
+import sbql4j8.com.sun.tools.javac.util.Options;
 
 public class TestLog
 {

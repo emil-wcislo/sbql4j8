@@ -50,7 +50,7 @@ public class T6893943 {
         System.err.println("Test simple api: " + Arrays.asList(args));
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javah.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javah.Main.run(args, pw);
         pw.close();
         expect("testSimpleAPI", sw.toString(), rc, expect_rc);
     }

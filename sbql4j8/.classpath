@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/openjdk">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" path="src/main/sbql4j"/>
+	<classpathentry kind="src" path="src/main/openjdk"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -17,13 +12,13 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="target/classes" path="src/main/openjdk, src/main/sbql4j">
+	<classpathentry kind="src" output="target/test-classes" path="src/test/sbql4j">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" output="target/test-classes" path="src/test/openjdk, src/test/sbql4j">
+	<classpathentry including="src/main/openjdk/**/*.java|src/main/sbql4j/**/*.java" kind="src" output="target/classes" path="Users/Emil/git/sbql4j8/sbql4j8">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>

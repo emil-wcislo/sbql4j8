@@ -44,8 +44,8 @@ import javax.tools.StandardLocation;
 import javax.tools.ToolProvider;
 import static javax.tools.Diagnostic.Kind.*;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.main.Main;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.main.Main;
 import java.util.EnumSet;
 import java.util.Set;
 import java.util.regex.Matcher;

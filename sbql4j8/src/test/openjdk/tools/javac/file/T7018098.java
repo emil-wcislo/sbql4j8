@@ -37,9 +37,9 @@ import javax.annotation.processing.SupportedOptions;
 import javax.lang.model.element.TypeElement;
 import javax.tools.Diagnostic;
 
-import com.sun.tools.javac.file.FSInfo;
-import com.sun.tools.javac.processing.JavacProcessingEnvironment;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.file.FSInfo;
+import sbql4j8.com.sun.tools.javac.processing.JavacProcessingEnvironment;
+import sbql4j8.com.sun.tools.javac.util.Context;
 
 @SupportedOptions("expect")
 public class T7018098 extends JavacTestingAbstractProcessor {
@@ -80,7 +80,7 @@ public class T7018098 extends JavacTestingAbstractProcessor {
     void compile(String... args) throws Exception {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         String out = sw.toString();
         if (!out.isEmpty())

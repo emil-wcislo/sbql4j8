@@ -33,8 +33,8 @@ import java.util.Set;
 import javax.annotation.processing.*;
 import javax.lang.model.*;
 import javax.lang.model.element.*;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 
 @SupportedAnnotationTypes("*")
 public class T6411379 extends AbstractProcessor {

@@ -28,8 +28,8 @@
  * @author  Peter von der Ah\u00e9
  */
 
-import static com.sun.tools.javac.util.Convert.enclosingCandidates;
-import com.sun.tools.javac.util.*;
+import static sbql4j8.com.sun.tools.javac.util.Convert.enclosingCandidates;
+import sbql4j8.com.sun.tools.javac.util.*;
 
 import java.util.Arrays;
 import java.util.Locale;

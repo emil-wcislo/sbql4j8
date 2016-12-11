@@ -21,7 +21,7 @@
  * questions.
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 public class X {
     public static boolean start(RootDoc root) {

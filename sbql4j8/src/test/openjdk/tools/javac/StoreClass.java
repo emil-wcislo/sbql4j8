@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 4350352
- * @summary InternalError: store unsupported: com.sun.tools.javac.v8.comp.Items
+ * @summary InternalError: store unsupported: sbql4j8.com.sun.tools.javac.v8.comp.Items
  * @author gafter
  *
  * @compile/fail StoreClass.java

@@ -35,8 +35,8 @@ import javax.annotation.processing.*;
 import javax.lang.model.*;
 import javax.lang.model.element.*;
 import java.util.*;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 
 public class TestResourceElement extends JavacTestingAbstractProcessor implements AutoCloseable {
     public boolean process(Set<? extends TypeElement> annotations,

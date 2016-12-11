@@ -39,7 +39,7 @@ public class T6968833 {
         // following file causes error: No public or protected classes found to document.
         File f = writeFile(srcDir, "Foo.java", "class Foo { }");
         String[] args = { f.getPath() };
-        int rc = com.sun.tools.javadoc.Main.execute(args);
+        int rc = sbql4j8.com.sun.tools.javadoc.Main.execute(args);
         if (rc == 0)
             throw new Error("Unexpected exit from javadoc: " + rc);
     }

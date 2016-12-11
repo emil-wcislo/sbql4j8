@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug     6332204
- * @summary com.sun.tools.javac.code.Types.lub() throws NPE
+ * @summary sbql4j8.com.sun.tools.javac.code.Types.lub() throws NPE
  * @compile T6346876.java
  */
 

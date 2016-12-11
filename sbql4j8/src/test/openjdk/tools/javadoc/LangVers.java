@@ -29,7 +29,7 @@
  */
 
 import java.util.List;
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 public class LangVers extends Doclet {
 
@@ -38,7 +38,7 @@ public class LangVers extends Doclet {
             new java.io.File(System.getProperty("test.src", "."),
                              "LangVers.java");
 
-        if (com.sun.tools.javadoc.Main.execute(
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(
                 "javadoc",
                 "LangVers",
                 LangVers.class.getClassLoader(),

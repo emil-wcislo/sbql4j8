@@ -30,7 +30,7 @@
  * @run main NestedClass
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.*;
 
 public class NestedClass extends Doclet
@@ -38,7 +38,7 @@ public class NestedClass extends Doclet
     public NestedClassB b;
 
     public static void main(String[] args) {
-        if (com.sun.tools.javadoc.Main.
+        if (sbql4j8.com.sun.tools.javadoc.Main.
             execute("javadoc", "NestedClass", NestedClass.class.getClassLoader(),
                     new String[] {System.getProperty("test.src", ".") +
                                   java.io.File.separatorChar +
@@ -47,7 +47,7 @@ public class NestedClass extends Doclet
             throw new Error();
     }
 
-    public static boolean start(com.sun.javadoc.RootDoc root) {
+    public static boolean start(sbql4j8.com.sun.javadoc.RootDoc root) {
         ClassDoc[] classes = root.classes();
         if (classes.length != 1)
             throw new Error("1 " + Arrays.asList(classes));

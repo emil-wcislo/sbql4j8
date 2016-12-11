@@ -20,14 +20,14 @@
  * or visit www.oracle.com if you need additional information or have any
  * questions.
  */
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.IdentifierTree;
-import com.sun.source.tree.MemberSelectTree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreePathScanner;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.IdentifierTree;
+import sbql4j8.com.sun.source.tree.MemberSelectTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
 import java.io.File;
 import java.io.IOException;
 import java.net.URISyntaxException;

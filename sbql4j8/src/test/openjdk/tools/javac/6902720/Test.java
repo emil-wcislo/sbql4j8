@@ -26,11 +26,11 @@ import java.net.*;
 import javax.tools.*;
 import java.util.*;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.Pretty;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.Pretty;
 
 /**
  * @test

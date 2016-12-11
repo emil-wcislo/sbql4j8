@@ -27,7 +27,7 @@
  * @summary javac TaskListener should be informed when annotation processing occurs
  */
 
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.util.*;
 import java.io.*;
 import java.lang.annotation.*;
 import java.util.*;
@@ -37,7 +37,7 @@ import javax.lang.model.element.*;
 import javax.lang.model.type.*;
 import javax.lang.model.util.*;
 import javax.tools.*;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 
 @Wrap
 @SupportedAnnotationTypes("Wrap")

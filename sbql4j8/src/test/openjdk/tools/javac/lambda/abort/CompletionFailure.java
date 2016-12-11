@@ -27,7 +27,7 @@
  * @summary Certain diagnostics should not be deferred
  */
 
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;

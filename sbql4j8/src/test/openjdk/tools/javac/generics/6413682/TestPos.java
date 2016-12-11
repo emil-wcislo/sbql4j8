@@ -28,12 +28,12 @@
  * @author  Peter von der Ah\u00e9
  */
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.ErroneousTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreeScanner;
-import com.sun.source.util.Trees;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.ErroneousTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.util.Trees;
 import java.io.IOException;
 import java.net.URI;
 import java.util.Collections;

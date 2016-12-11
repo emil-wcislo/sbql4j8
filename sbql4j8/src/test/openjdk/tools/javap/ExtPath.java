@@ -27,10 +27,10 @@
  * @bug     6428896
  * @summary javap cannot read multiple entries on the extension classpath
  * @author  Wei Tao
- * @run main/othervm ExtPath com.sun.crypto.provider.SunJCE
+ * @run main/othervm ExtPath sbql4j8.com.sun.crypto.provider.SunJCE
  */
 
-import com.sun.tools.javap.Main;
+import sbql4j8.com.sun.tools.javap.Main;
 import java.io.*;
 
 public class ExtPath {

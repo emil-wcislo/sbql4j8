@@ -29,7 +29,7 @@
  * @run main TestJavacTask TestJavacTask.java
  */
 
-import com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;

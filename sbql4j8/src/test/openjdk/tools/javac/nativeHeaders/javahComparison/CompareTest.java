@@ -65,7 +65,7 @@ public class CompareTest {
             }
         }
 
-        int rc = com.sun.tools.javac.Main.compile(javacArgs.toArray(new String[javacArgs.size()]));
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(javacArgs.toArray(new String[javacArgs.size()]));
         if (rc != 0)
             throw new Exception("javac failed; rc=" + rc);
 
@@ -80,7 +80,7 @@ public class CompareTest {
         }
 
         PrintWriter pw = new PrintWriter(System.out, true);
-        rc = com.sun.tools.javah.Main.run(javahArgs.toArray(new String[javahArgs.size()]), pw);
+        rc = sbql4j8.com.sun.tools.javah.Main.run(javahArgs.toArray(new String[javahArgs.size()]), pw);
         if (rc != 0)
             throw new Exception("javah failed; rc=" + rc);
 

@@ -27,9 +27,9 @@
  * @summary Regression: internal compiler error for nested anonymous inner class featuring varargs constructor
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 import java.net.URI;
 import java.util.Arrays;

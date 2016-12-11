@@ -31,10 +31,10 @@
  * @run main CPoolRefClassContainingInlinedCts
  */
 
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_Class_info;
-import com.sun.tools.classfile.ConstantPool.CPInfo;
-import com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.CONSTANT_Class_info;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.CPInfo;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
 import java.io.File;
 import java.io.IOException;
 

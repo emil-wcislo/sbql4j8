@@ -94,7 +94,7 @@ public class AccessModifiers {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         System.out.printf("\nRun javap " + optlist + "\n\n");
-        int rc = com.sun.tools.javap.Main.run(newoptions, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(newoptions, pw);
         pw.close();
         System.out.println(sw);
         if (rc != expect)

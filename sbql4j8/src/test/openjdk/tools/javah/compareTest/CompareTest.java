@@ -36,10 +36,10 @@ import java.util.TreeSet;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.AccessFlags;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.Method;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
@@ -133,7 +133,7 @@ public class CompareTest {
         args.add(className);
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javah.Main.run(args.toArray(new String[args.size()]), pw);
+        int rc = sbql4j8.com.sun.tools.javah.Main.run(args.toArray(new String[args.size()]), pw);
         pw.close();
         System.err.println("new javah out: " + sw.toString());
         return rc;

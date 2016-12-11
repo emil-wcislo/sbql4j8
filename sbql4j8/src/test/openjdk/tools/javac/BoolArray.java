@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 4832887
- * @summary NPE from com.sun.tools.javac.v8.comp.Flow.checkInit in Mantis beta
+ * @summary NPE from sbql4j8.com.sun.tools.javac.v8.comp.Flow.checkInit in Mantis beta
  * @author gafter
  *
  * @compile BoolArray.java

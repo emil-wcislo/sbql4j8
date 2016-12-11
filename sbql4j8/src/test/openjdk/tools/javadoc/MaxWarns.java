@@ -75,8 +75,8 @@ public class MaxWarns {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] args = { "-Xdoclint:none", "-d", "api", f.getPath() };
-        int rc = com.sun.tools.javadoc.Main.execute("javadoc", pw, pw, pw,
-                com.sun.tools.doclets.standard.Standard.class.getName(), args);
+        int rc = sbql4j8.com.sun.tools.javadoc.Main.execute("javadoc", pw, pw, pw,
+                sbql4j8.com.sun.tools.doclets.standard.Standard.class.getName(), args);
         pw.flush();
         return sw.toString();
     }

@@ -31,7 +31,7 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 import javax.tools.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.util.*;
 
 public class TestAnnotationPackageInfo {
     public static void main(String... args) throws Exception {

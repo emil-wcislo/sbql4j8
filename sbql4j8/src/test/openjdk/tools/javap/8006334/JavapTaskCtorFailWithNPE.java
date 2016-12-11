@@ -38,8 +38,8 @@ import javax.tools.Diagnostic;
 import javax.tools.DiagnosticCollector;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
-import com.sun.tools.javap.JavapFileManager;
-import com.sun.tools.javap.JavapTask;
+import sbql4j8.com.sun.tools.javap.JavapFileManager;
+import sbql4j8.com.sun.tools.javap.JavapTask;
 
 public class JavapTaskCtorFailWithNPE {
 

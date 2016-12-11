@@ -29,9 +29,9 @@
  */
 
 import java.io.IOException;
-import com.sun.javadoc.RootDoc;
-import com.sun.javadoc.ClassDoc;
-import com.sun.javadoc.AnnotationDesc;
+import sbql4j8.com.sun.javadoc.RootDoc;
+import sbql4j8.com.sun.javadoc.ClassDoc;
+import sbql4j8.com.sun.javadoc.AnnotationDesc;
 
 public class Main extends Tester.Doclet {
 

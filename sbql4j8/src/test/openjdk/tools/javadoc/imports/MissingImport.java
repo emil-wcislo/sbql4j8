@@ -28,7 +28,7 @@
  *          it's not in the classpath.
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 
 public class MissingImport extends Doclet {
@@ -38,7 +38,7 @@ public class MissingImport extends Doclet {
             new java.io.File(System.getProperty("test.src", "."),
                              "I.java");
 
-        if (com.sun.tools.javadoc.Main.execute(
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(
                 "javadoc",
                 "MissingImport",
                 MissingImport.class.getClassLoader(),

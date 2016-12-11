@@ -28,12 +28,12 @@
  * @author  Scott Seligman
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 public class SourceOption extends Doclet {
 
     public static void main(String[] args) {
-        if (com.sun.tools.javadoc.Main.execute(
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(
                 "javadoc",
                 "SourceOption",
                 SourceOption.class.getClassLoader(),

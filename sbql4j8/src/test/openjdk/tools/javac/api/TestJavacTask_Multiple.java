@@ -31,7 +31,7 @@ import java.io.*;
 import java.util.*;
 import javax.tools.*;
 import javax.tools.JavaCompiler.CompilationTask;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.util.*;
 
 public class TestJavacTask_Multiple {
     public static void main(String... args) throws Exception {

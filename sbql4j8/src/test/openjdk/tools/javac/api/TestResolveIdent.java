@@ -29,9 +29,9 @@
  * @run main TestResolveIdent
  */
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.JavaCompiler;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.main.JavaCompiler;
 import java.io.File;
 import java.io.IOException;
 import javax.lang.model.element.TypeElement;

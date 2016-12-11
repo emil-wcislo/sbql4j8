@@ -27,15 +27,15 @@
  * @summary TreeMaker.Literal(Object) does not support Booleans
  */
 
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.TypeTag;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.tree.JCTree.JCLiteral;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.tree.TreeMaker;
-import static com.sun.tools.javac.code.TypeTag.*;
+import sbql4j8.com.sun.tools.javac.code.Type;
+import sbql4j8.com.sun.tools.javac.code.TypeTag;
+import sbql4j8.com.sun.tools.javac.code.Symtab;
+import sbql4j8.com.sun.tools.javac.code.Types;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCLiteral;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.tree.TreeMaker;
+import static sbql4j8.com.sun.tools.javac.code.TypeTag.*;
 
 public class MakeLiteralTest {
     public static void main(String... args) throws Exception {

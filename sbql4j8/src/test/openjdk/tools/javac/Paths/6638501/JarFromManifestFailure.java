@@ -55,7 +55,7 @@ public class JarFromManifestFailure {
             new File(testSrc, "test/SayHello.java").getPath().replace('\\', '/')
         };
         System.err.println("First compile!!!");
-        if (com.sun.tools.javac.Main.compile(args1) != 0) {
+        if (sbql4j8.com.sun.tools.javac.Main.compile(args1) != 0) {
             throw new AssertionError("Failure in first compile!");
         }
 
@@ -66,7 +66,7 @@ public class JarFromManifestFailure {
             "-cp", new File(libFile, "JarPointer.jar").getPath().replace('\\', '/'),
             new File(testSrc, "test1/SayHelloToo.java").getPath().replace('\\', '/')
         };
-        if (com.sun.tools.javac.Main.compile(args1) != 0) {
+        if (sbql4j8.com.sun.tools.javac.Main.compile(args1) != 0) {
             throw new AssertionError("Failure in second compile!");
         }
     }

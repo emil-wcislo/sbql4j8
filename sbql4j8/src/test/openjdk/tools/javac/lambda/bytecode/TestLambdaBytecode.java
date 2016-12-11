@@ -33,15 +33,15 @@
 // use /othervm to avoid jtreg timeout issues (CODETOOLS-7900047)
 // see JDK-8006746
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.BootstrapMethods_attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool.*;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.BootstrapMethods_attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.*;
+import sbql4j8.com.sun.tools.classfile.Instruction;
+import sbql4j8.com.sun.tools.classfile.Method;
 
-import com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
 
 
 import java.io.File;
@@ -54,7 +54,7 @@ import javax.tools.Diagnostic;
 import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 
-import static com.sun.tools.javac.jvm.ClassFile.*;
+import static sbql4j8.com.sun.tools.javac.jvm.ClassFile.*;
 
 public class TestLambdaBytecode
     extends JavacTestingAbstractThreadedTest

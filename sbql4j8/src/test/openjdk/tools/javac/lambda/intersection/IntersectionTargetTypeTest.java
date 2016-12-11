@@ -27,8 +27,8 @@
  * @summary Add support for intersection types in cast expression
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.util.ListBuffer;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.util.ListBuffer;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.Arrays;

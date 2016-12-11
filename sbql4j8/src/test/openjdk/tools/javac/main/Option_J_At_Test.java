@@ -40,7 +40,7 @@ public class Option_J_At_Test {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] help = { "-help" };
-        int rc = com.sun.tools.javac.Main.compile(help, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(help, pw);
         pw.flush();
         String out = sw.toString();
         System.out.println(out);

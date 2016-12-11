@@ -23,7 +23,7 @@
 
 /* @test
  * @bug 4587487
- * @summary com.sun.tools.javadoc.Main.execute ignores PrintWriters
+ * @summary sbql4j8.com.sun.tools.javadoc.Main.execute ignores PrintWriters
  * @author gafter
  * @compile p/OutputRedirect.java
  * @run main p.OutputRedirect

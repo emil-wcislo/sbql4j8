@@ -49,7 +49,7 @@ import javax.tools.StandardLocation;
 import javax.tools.ToolProvider;
 import static javax.tools.Diagnostic.Kind.*;
 
-import com.sun.tools.javac.main.Main;
+import sbql4j8.com.sun.tools.javac.main.Main;
 
 public class DocLintTest {
     public static void main(String... args) throws Exception {

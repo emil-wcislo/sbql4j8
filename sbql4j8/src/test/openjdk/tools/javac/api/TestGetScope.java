@@ -27,7 +27,7 @@
  * @summary IllegalStateException from Trees.getScope when called from JSR 199
  */
 
-import com.sun.source.tree.IdentifierTree;
+import sbql4j8.com.sun.source.tree.IdentifierTree;
 import java.io.File;
 import java.util.Arrays;
 import java.util.Collections;
@@ -42,10 +42,10 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.TreePathScanner;
-import com.sun.source.util.Trees;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.util.Trees;
 import javax.annotation.processing.SupportedAnnotationTypes;
 import javax.lang.model.SourceVersion;
 

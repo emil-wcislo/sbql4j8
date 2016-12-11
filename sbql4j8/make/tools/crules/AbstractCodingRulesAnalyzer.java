@@ -30,19 +30,19 @@ import java.util.ResourceBundle;
 import javax.lang.model.element.TypeElement;
 import javax.tools.JavaFileObject;
 
-import com.sun.source.tree.Tree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.Plugin;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.BasicJavacTask;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Log;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.Plugin;
+import sbql4j8.com.sun.source.util.TaskEvent;
+import sbql4j8.com.sun.source.util.TaskListener;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.BasicJavacTask;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.TreeScanner;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.Log;
 
-import static com.sun.source.util.TaskEvent.Kind;
+import static sbql4j8.com.sun.source.util.TaskEvent.Kind;
 
 public abstract class AbstractCodingRulesAnalyzer implements Plugin {
 

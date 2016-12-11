@@ -38,7 +38,7 @@
 import java.net.URI;
 import java.util.regex.Matcher;
 import javax.tools.*;
-import com.sun.tools.javac.util.*;
+import sbql4j8.com.sun.tools.javac.util.*;
 
 public class T6769027
     extends JavacTestingAbstractThreadedTest

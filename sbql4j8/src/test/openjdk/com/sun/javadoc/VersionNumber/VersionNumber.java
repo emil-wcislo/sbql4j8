@@ -24,13 +24,13 @@
 /*
  * @test
  * @bug 4720849
- * @summary  com.sun.tools.doclets.standard.Standard contains hard-coded version number
+ * @summary  sbql4j8.com.sun.tools.doclets.standard.Standard contains hard-coded version number
  * @author dkramer
  * @run main VersionNumber
  */
 
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.*;
 import java.io.*;
 
@@ -71,7 +71,7 @@ public class VersionNumber {
 
     /** Run javadoc */
     public static void runJavadoc(String[] javadocArgs) {
-        if (com.sun.tools.javadoc.Main.execute(javadocArgs) != 0) {
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(javadocArgs) != 0) {
             throw new Error("Javadoc failed to execute");
         }
     }

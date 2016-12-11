@@ -53,7 +53,7 @@ public class T4075403 {
     }
 
     File compileTestFile(File f) {
-        int rc = com.sun.tools.javac.Main.compile(new String[] { "-g", f.getPath() });
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] { "-g", f.getPath() });
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);
         String path = f.getPath();
@@ -63,7 +63,7 @@ public class T4075403 {
     String javap(String className) {
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
-        int rc = com.sun.tools.javap.Main.run(new String[] { "-classpath", ".", className }, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(new String[] { "-classpath", ".", className }, out);
         if (rc != 0)
             throw new Error("javap failed. rc=" + rc);
         out.close();

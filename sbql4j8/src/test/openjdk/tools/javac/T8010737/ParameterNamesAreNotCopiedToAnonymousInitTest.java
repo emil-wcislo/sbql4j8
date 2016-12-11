@@ -41,23 +41,23 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.javac.api.BasicJavacTask;
-import com.sun.tools.javac.code.Attribute.Compound;
-import com.sun.tools.javac.code.Symbol.ClassSymbol;
-import com.sun.tools.javac.code.Symbol.VarSymbol;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.Names;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TaskEvent;
+import sbql4j8.com.sun.source.util.TaskListener;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.javac.api.BasicJavacTask;
+import sbql4j8.com.sun.tools.javac.code.Attribute.Compound;
+import sbql4j8.com.sun.tools.javac.code.Symbol.ClassSymbol;
+import sbql4j8.com.sun.tools.javac.code.Symbol.VarSymbol;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.TreeScanner;
+import sbql4j8.com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.util.Names;
 
 public class ParameterNamesAreNotCopiedToAnonymousInitTest {
 

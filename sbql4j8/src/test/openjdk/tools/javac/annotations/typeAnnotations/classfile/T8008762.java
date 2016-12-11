@@ -31,7 +31,7 @@ import java.lang.annotation.*;
 import static java.lang.annotation.RetentionPolicy.*;
 import static java.lang.annotation.ElementType.*;
 
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 public class T8008762 extends ClassfileTestHelper{
     public static void main(String[] args) throws Exception {

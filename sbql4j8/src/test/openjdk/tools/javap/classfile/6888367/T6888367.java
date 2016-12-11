@@ -24,14 +24,14 @@
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import com.sun.tools.classfile.*;
-import com.sun.tools.classfile.Type.ArrayType;
-import com.sun.tools.classfile.Type.ClassSigType;
-import com.sun.tools.classfile.Type.ClassType;
-import com.sun.tools.classfile.Type.MethodType;
-import com.sun.tools.classfile.Type.SimpleType;
-import com.sun.tools.classfile.Type.TypeParamType;
-import com.sun.tools.classfile.Type.WildcardType;
+import sbql4j8.com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.Type.ArrayType;
+import sbql4j8.com.sun.tools.classfile.Type.ClassSigType;
+import sbql4j8.com.sun.tools.classfile.Type.ClassType;
+import sbql4j8.com.sun.tools.classfile.Type.MethodType;
+import sbql4j8.com.sun.tools.classfile.Type.SimpleType;
+import sbql4j8.com.sun.tools.classfile.Type.TypeParamType;
+import sbql4j8.com.sun.tools.classfile.Type.WildcardType;
 
 /*
  * @test

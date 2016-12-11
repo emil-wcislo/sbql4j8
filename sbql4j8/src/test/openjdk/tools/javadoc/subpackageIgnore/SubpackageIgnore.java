@@ -28,12 +28,12 @@
  *          can't be part of a subpackage.
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 public class SubpackageIgnore extends Doclet {
 
     public static void main(String[] args) {
-        if (com.sun.tools.javadoc.Main.execute(
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(
                 "javadoc",
                 "SubpackageIgnore",
                 SubpackageIgnore.class.getClassLoader(),

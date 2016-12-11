@@ -46,16 +46,16 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
 import javax.tools.ToolProvider;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Descriptor;
-import com.sun.tools.classfile.Descriptor.InvalidDescriptor;
-import com.sun.tools.classfile.Field;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.Descriptor;
+import sbql4j8.com.sun.tools.classfile.Descriptor.InvalidDescriptor;
+import sbql4j8.com.sun.tools.classfile.Field;
 
 import static javax.tools.JavaFileObject.Kind.CLASS;
-import static com.sun.tools.classfile.AccessFlags.ACC_ENUM;
-import static com.sun.tools.classfile.AccessFlags.ACC_FINAL;
-import static com.sun.tools.classfile.AccessFlags.ACC_STATIC;
+import static sbql4j8.com.sun.tools.classfile.AccessFlags.ACC_ENUM;
+import static sbql4j8.com.sun.tools.classfile.AccessFlags.ACC_FINAL;
+import static sbql4j8.com.sun.tools.classfile.AccessFlags.ACC_STATIC;
 
 public class DetectMutableStaticFields {
 
@@ -182,7 +182,7 @@ public class DetectMutableStaticFields {
         StandardJavaFileManager fm = tool.getStandardFileManager(null, null, null);
         JavaFileManager.Location location =
                 StandardLocation.locationFor(resource.getPath());
-        fm.setLocation(location, com.sun.tools.javac.util.List.of(
+        fm.setLocation(location, sbql4j8.com.sun.tools.javac.util.List.of(
                 new File(resource.getPath())));
 
         for (JavaFileObject file : fm.list(location, "", EnumSet.of(CLASS), true)) {

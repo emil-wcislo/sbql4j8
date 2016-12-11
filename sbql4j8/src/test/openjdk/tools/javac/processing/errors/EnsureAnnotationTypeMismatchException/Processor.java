@@ -29,7 +29,7 @@ import javax.annotation.processing.*;
 import javax.lang.model.element.*;
 import javax.lang.model.util.ElementFilter;
 import javax.tools.*;
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 
 public class Processor extends JavacTestingAbstractProcessor {
 

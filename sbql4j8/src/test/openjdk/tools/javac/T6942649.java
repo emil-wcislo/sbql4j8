@@ -44,7 +44,7 @@ public class T6942649 {
         System.err.println("test " + opt);
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(new String[] { opt }, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] { opt }, pw);
         pw.close();
         String out = sw.toString();
         System.err.println("javac rc=" + rc + "\n" + out);

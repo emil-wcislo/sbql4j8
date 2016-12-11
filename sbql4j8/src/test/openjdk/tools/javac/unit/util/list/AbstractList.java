@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug     6320536
- * @summary com.sun.tools.javac.util.List.from(A[]) shouldn't be deprecated
+ * @summary sbql4j8.com.sun.tools.javac.util.List.from(A[]) shouldn't be deprecated
  * @author  Peter von der Ah\u00e9
  * @library ../..
  * @compile ../../util/list/AbstractList.java
@@ -33,7 +33,7 @@
 
 package util.list;
 
-import static com.sun.tools.javac.util.List.from;
+import static sbql4j8.com.sun.tools.javac.util.List.from;
 import java.util.List;
 
 public class AbstractList {

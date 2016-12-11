@@ -29,13 +29,13 @@
  * @run main XWerror
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.*;
 
 public class XWerror extends Doclet
 {
     public static void main(String[] args) {
-        if (com.sun.tools.javadoc.Main.
+        if (sbql4j8.com.sun.tools.javadoc.Main.
             execute("javadoc", "XWerror", XWerror.class.getClassLoader(),
                     new String[] {"-Xwerror",
                                   System.getProperty("test.src", ".") +
@@ -44,7 +44,7 @@ public class XWerror extends Doclet
             throw new Error();
     }
 
-    public static boolean start(com.sun.javadoc.RootDoc root) {
+    public static boolean start(sbql4j8.com.sun.javadoc.RootDoc root) {
         root.printWarning(null, "warning message");
         return false;
     }

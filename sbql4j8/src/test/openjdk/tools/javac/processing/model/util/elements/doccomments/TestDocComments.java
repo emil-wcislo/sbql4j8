@@ -27,8 +27,8 @@
  * @summary Elements.getDocComment() is not getting JavaDocComments
  */
 
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 import java.io.*;
 import java.util.*;
 import javax.annotation.processing.*;
@@ -116,7 +116,7 @@ public class TestDocComments extends AbstractProcessor {
         List<String> args = new ArrayList<String>(Arrays.asList(opts));
         for (File f: files)
             args.add(f.getPath());
-        int rc = com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
         pw.close();
         String out = sw.toString();
         if (out.length() > 0)

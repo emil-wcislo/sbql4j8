@@ -243,7 +243,7 @@ public class ShadowingTest {
         final String[] args = { filename };
         final StringWriter sw = new StringWriter();
         final PrintWriter pw = new PrintWriter(sw);
-        final int rc = com.sun.tools.javac.Main.compile(args, pw);
+        final int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         if (rc == 0) {
             System.err.println("Compilation of " + file.getName() +
@@ -258,7 +258,7 @@ public class ShadowingTest {
         final String[] args = { filename };
         final StringWriter sw = new StringWriter();
         final PrintWriter pw = new PrintWriter(sw);
-        final int rc = com.sun.tools.javac.Main.compile(args, pw);
+        final int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         if (rc != 0) {
             System.err.println("Compilation of " + file.getName() +

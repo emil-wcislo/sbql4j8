@@ -93,7 +93,7 @@ public class DocletPathTest extends APITest {
     private static final String TEST_STRING = "DocletOnDocletPath found and running";
 
     private static final String docletSrcText =
-        "import com.sun.javadoc.*;\n" +
+        "import sbql4j8.com.sun.javadoc.*;\n" +
         "public class DocletOnDocletPath {\n" +
         "    public static boolean start(RootDoc doc) {\n" +
         "        doc.printNotice(\"" + TEST_STRING + "\");\n" +

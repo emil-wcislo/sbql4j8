@@ -52,20 +52,20 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool.InvalidIndex;
-import com.sun.tools.classfile.ConstantPool.UnexpectedEntry;
-import com.sun.tools.classfile.Descriptor.InvalidDescriptor;
-import com.sun.tools.classfile.LocalVariableTable_attribute;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPool;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.InvalidIndex;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.UnexpectedEntry;
+import sbql4j8.com.sun.tools.classfile.Descriptor.InvalidDescriptor;
+import sbql4j8.com.sun.tools.classfile.LocalVariableTable_attribute;
+import sbql4j8.com.sun.tools.classfile.Method;
 
 import static javax.tools.StandardLocation.*;
-import static com.sun.tools.classfile.LocalVariableTable_attribute.Entry;
+import static sbql4j8.com.sun.tools.classfile.LocalVariableTable_attribute.Entry;
 import static javax.tools.JavaFileObject.Kind.SOURCE;
 
 public class LVTHarness {

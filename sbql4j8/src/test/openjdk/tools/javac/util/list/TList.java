@@ -28,7 +28,7 @@
  */
 
 import java.util.*;
-import com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.util.List;
 
 public class TList {
     public static void main(String[] args) {
@@ -50,11 +50,11 @@ public class TList {
         for (String[] values: data)
             examples.put(Arrays.asList(values), createList(values));
 
-        // 6351336: com.sun.tools.javac.util.List shouldn't extend java.util.AbstractList
+        // 6351336: sbql4j8.com.sun.tools.javac.util.List shouldn't extend java.util.AbstractList
         test_AbstractList();
 
         // general unit tests for java.util.List methods, including...
-        // 6389198: com.sun.tools.javac.util.List.equals() violates java.util.List.equals() contract
+        // 6389198: sbql4j8.com.sun.tools.javac.util.List.equals() violates java.util.List.equals() contract
         test_add_E();
         test_add_int_E();
         test_addAll_Collection();
@@ -479,15 +479,15 @@ public class TList {
         }
     }
 
-    static <T> com.sun.tools.javac.util.List<T> createList(List<T> d) {
-        com.sun.tools.javac.util.List<T> l = com.sun.tools.javac.util.List.nil();
+    static <T> sbql4j8.com.sun.tools.javac.util.List<T> createList(List<T> d) {
+        sbql4j8.com.sun.tools.javac.util.List<T> l = sbql4j8.com.sun.tools.javac.util.List.nil();
         for (ListIterator<T> iter = d.listIterator(d.size()); iter.hasPrevious(); )
             l = l.prepend(iter.previous());
         return l;
     }
 
-    static <T> com.sun.tools.javac.util.List<T> createList(T... d) {
-        com.sun.tools.javac.util.List<T> l = com.sun.tools.javac.util.List.nil();
+    static <T> sbql4j8.com.sun.tools.javac.util.List<T> createList(T... d) {
+        sbql4j8.com.sun.tools.javac.util.List<T> l = sbql4j8.com.sun.tools.javac.util.List.nil();
         for (int i = d.length - 1; i >= 0; i--)
             l = l.prepend(d[i]);
         return l;

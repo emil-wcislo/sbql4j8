@@ -39,7 +39,7 @@ import javax.lang.model.util.Elements;
 import javax.lang.model.util.Types;
 import javax.tools.*;
 
-import com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
 
 /*
  * This is a cut down version of TestJavacTaskScanner, which as originally written

@@ -47,7 +47,7 @@ public class T4876942 {
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
         //sun.tools.javap.Main.entry(args);
-        int rc = com.sun.tools.javap.Main.run(args, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, out);
         if (rc != (args.length == 0 ? 2 : 0))
             throw new Error("javap failed. rc=" + rc);
         out.close();

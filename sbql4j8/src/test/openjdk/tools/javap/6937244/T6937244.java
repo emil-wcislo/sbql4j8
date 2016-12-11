@@ -38,7 +38,7 @@ public class T6937244 {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] args = { "java.lang.String" };
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         pw.close();
         String out = sw.toString();
         System.err.println(out);

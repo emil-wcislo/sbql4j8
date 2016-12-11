@@ -37,13 +37,13 @@ import java.io.StringWriter;
 
 import org.testng.annotations.Test;
 
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
-import com.sun.tools.javac.tree.Pretty;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Names;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCExpression;
+import sbql4j8.com.sun.tools.javac.tree.Pretty;
+import sbql4j8.com.sun.tools.javac.tree.TreeMaker;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.Names;
 
 
 /*

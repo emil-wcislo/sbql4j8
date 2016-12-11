@@ -44,7 +44,7 @@ public class T7185778 {
     }
 
     static public void main(String[] args) {
-        int rc = com.sun.tools.javah.Main.run(args, null);
+        int rc = sbql4j8.com.sun.tools.javah.Main.run(args, null);
         if ( rc != 0) {
             throw new Error("javah returned non zero: " + rc);
         }

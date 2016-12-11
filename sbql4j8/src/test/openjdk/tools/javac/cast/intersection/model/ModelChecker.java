@@ -21,14 +21,14 @@
  * questions.
  */
 
-import com.sun.source.tree.ExpressionTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.tree.TypeCastTree;
-import com.sun.source.tree.VariableTree;
-import com.sun.source.util.TreePathScanner;
-import com.sun.source.util.Trees;
-import com.sun.source.util.TreePath;
-import com.sun.tools.javac.tree.JCTree.JCExpression;
+import sbql4j8.com.sun.source.tree.ExpressionTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.tree.TypeCastTree;
+import sbql4j8.com.sun.source.tree.VariableTree;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCExpression;
 
 import java.util.Set;
 

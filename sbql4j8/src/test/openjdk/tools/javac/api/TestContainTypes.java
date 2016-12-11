@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 6981185
- * @summary  com.sun.tools.model.JavacTypes.contains() calls Type.contains instead of Types.containsType
+ * @summary  sbql4j8.com.sun.tools.model.JavacTypes.contains() calls Type.contains instead of Types.containsType
  * @run main TestContainTypes
  */
 
@@ -44,7 +44,7 @@ import javax.tools.JavaFileObject;
 import javax.tools.SimpleJavaFileObject;
 import javax.tools.ToolProvider;
 
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 import javax.annotation.processing.SupportedSourceVersion;
 import javax.lang.model.SourceVersion;
 

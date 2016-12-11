@@ -29,7 +29,7 @@
 
 import java.io.*;
 import java.util.*;
-import com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.tools.javac.api.*;
 
 public class T6403424 {
     public static void main(String[] args) {

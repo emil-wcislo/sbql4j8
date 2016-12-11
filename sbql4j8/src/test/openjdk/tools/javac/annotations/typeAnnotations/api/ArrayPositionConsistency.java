@@ -27,7 +27,7 @@
   *         array levels
  */
 
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 import java.lang.annotation.*;
 import java.io.File;
 import java.io.PrintWriter;
@@ -37,9 +37,9 @@ import java.util.Map;
 import java.util.HashMap;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
-import com.sun.source.tree.*;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreeScanner;
 import javax.tools.StandardJavaFileManager;
 
 

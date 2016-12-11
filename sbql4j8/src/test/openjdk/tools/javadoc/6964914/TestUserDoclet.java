@@ -28,8 +28,8 @@
  */
 
 import java.io.*;
-import com.sun.javadoc.Doclet;
-import com.sun.javadoc.RootDoc;
+import sbql4j8.com.sun.javadoc.Doclet;
+import sbql4j8.com.sun.javadoc.RootDoc;
 
 public class TestUserDoclet extends Doclet {
     public static void main(String... args) throws Exception {

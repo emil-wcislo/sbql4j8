@@ -32,7 +32,7 @@ import pack1.*;
 import pack1.Symbol.*;
 
 // The following imports are just to trigger re-hashing (in
-// com.sun.tools.javac.code.Scope.dble()) of the star-import scope.
+// sbql4j8.com.sun.tools.javac.code.Scope.dble()) of the star-import scope.
 import java.io.*;
 import java.net.*;
 import java.util.*;

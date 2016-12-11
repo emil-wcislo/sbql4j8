@@ -28,11 +28,11 @@
  * @run main Pos05
  */
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.Code_attribute.Exception_data;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.Code_attribute.Exception_data;
+import sbql4j8.com.sun.tools.classfile.Method;
 import java.io.*;
 
 public class Pos05 {

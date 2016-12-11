@@ -156,7 +156,7 @@ public class Basic {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         System.err.println("jdeps " + Arrays.toString(args));
-        int rc = com.sun.tools.jdeps.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.jdeps.Main.run(args, pw);
         pw.close();
         String out = sw.toString();
         if (!out.isEmpty())

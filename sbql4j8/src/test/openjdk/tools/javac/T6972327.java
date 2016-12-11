@@ -27,11 +27,11 @@
  * @summary JCTree.pos incorrect for annotations without modifiers and package
  */
 
-import com.sun.source.tree.*;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.*;
-import com.sun.tools.javac.tree.*;
-import com.sun.tools.javac.tree.JCTree.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.tools.javac.tree.*;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.*;
 import java.net.URI;
 import java.util.Arrays;
 import javax.tools.*;

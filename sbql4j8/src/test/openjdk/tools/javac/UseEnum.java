@@ -24,7 +24,7 @@
 /**
  * @test
  * @bug 5013488
- * @summary Compiler AssertionError: com.sun.tools.javac.util.Bits.incl(Bits.java:73)
+ * @summary Compiler AssertionError: sbql4j8.com.sun.tools.javac.util.Bits.incl(Bits.java:73)
  *
  * @compile/fail UseEnum.java
  */

@@ -27,23 +27,23 @@
  * @summary adding DocTreePath and DocTreePathScanner
  */
 
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.doctree.DocTree;
-import com.sun.source.doctree.DocTree.Kind;
-import com.sun.source.doctree.DocTreeVisitor;
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.tree.VariableTree;
-import com.sun.source.util.DocTreePath;
-import com.sun.source.util.DocTreePathScanner;
-import com.sun.source.util.DocTreeScanner;
-import com.sun.source.util.DocTrees;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.TreePathScanner;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.source.doctree.DocCommentTree;
+import sbql4j8.com.sun.source.doctree.DocTree;
+import sbql4j8.com.sun.source.doctree.DocTree.Kind;
+import sbql4j8.com.sun.source.doctree.DocTreeVisitor;
+import sbql4j8.com.sun.source.tree.ClassTree;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.tree.VariableTree;
+import sbql4j8.com.sun.source.util.DocTreePath;
+import sbql4j8.com.sun.source.util.DocTreePathScanner;
+import sbql4j8.com.sun.source.util.DocTreeScanner;
+import sbql4j8.com.sun.source.util.DocTrees;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;

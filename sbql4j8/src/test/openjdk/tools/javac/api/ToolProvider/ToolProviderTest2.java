@@ -31,7 +31,7 @@ import java.io.*;
 import javax.tools.*;
 
 // control for ToolProviderTest1 -- verify that using ToolProvider to
-// access the compiler does trigger loading com.sun.tools.javac.*
+// access the compiler does trigger loading sbql4j8.com.sun.tools.javac.*
 public class ToolProviderTest2 {
     public static void main(String... args) throws Exception {
         if (args.length > 0) {

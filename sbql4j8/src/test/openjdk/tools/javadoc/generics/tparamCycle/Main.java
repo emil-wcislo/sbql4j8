@@ -31,7 +31,7 @@
  */
 
 import java.io.IOException;
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 public class Main extends Tester.Doclet {
 

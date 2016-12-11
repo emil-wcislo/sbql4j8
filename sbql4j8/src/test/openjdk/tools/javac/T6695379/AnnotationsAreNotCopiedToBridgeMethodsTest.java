@@ -38,12 +38,12 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.Attributes;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.classfile.AccessFlags;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.Attributes;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 
 public class AnnotationsAreNotCopiedToBridgeMethodsTest {
 

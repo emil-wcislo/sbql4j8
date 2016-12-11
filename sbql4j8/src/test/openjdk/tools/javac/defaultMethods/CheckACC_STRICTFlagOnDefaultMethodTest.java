@@ -35,13 +35,13 @@ import java.util.List;
 import java.io.File;
 import java.io.IOException;
 
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Descriptor;
-import com.sun.tools.classfile.Descriptor.InvalidDescriptor;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.Descriptor;
+import sbql4j8.com.sun.tools.classfile.Descriptor.InvalidDescriptor;
+import sbql4j8.com.sun.tools.classfile.Method;
 
-import static com.sun.tools.classfile.AccessFlags.ACC_STRICT;
+import static sbql4j8.com.sun.tools.classfile.AccessFlags.ACC_STRICT;
 
 public class CheckACC_STRICTFlagOnDefaultMethodTest {
     private static final String AssertionErrorMessage =

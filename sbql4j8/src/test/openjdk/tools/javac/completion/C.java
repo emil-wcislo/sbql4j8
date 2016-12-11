@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 4433676
- * @summary javac dies with NullPointerException in com.sun.tools.javac.v8.comp.Resolve.find
+ * @summary javac dies with NullPointerException in sbql4j8.com.sun.tools.javac.v8.comp.Resolve.find
  * @author gafter
  *
  * @compile/fail C.java

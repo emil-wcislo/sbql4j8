@@ -28,7 +28,7 @@ import java.nio.file.*;
 import java.nio.file.attribute.*;
 import java.nio.charset.*;
 
-import com.sun.tools.sjavac.Main;
+import sbql4j8.com.sun.tools.sjavac.Main;
 
 public
 class SJavac {

@@ -31,13 +31,13 @@ import java.io.File;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.SourcePositions;
-import com.sun.source.util.TreeScanner;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.SourcePositions;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 import java.io.IOException;
 
 /*

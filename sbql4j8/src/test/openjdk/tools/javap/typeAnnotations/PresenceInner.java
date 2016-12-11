@@ -22,7 +22,7 @@
  */
 
 import java.io.*;
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 /*
  * @test PresenceInner
@@ -149,7 +149,7 @@ public class PresenceInner {
     }
 
     File compileTestFile(File f) {
-        int rc = com.sun.tools.javac.Main.compile(new String[] { "-source", "1.8", "-g", f.getPath() });
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] { "-source", "1.8", "-g", f.getPath() });
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);
         String path = f.getPath();

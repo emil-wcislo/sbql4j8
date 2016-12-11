@@ -28,11 +28,11 @@ import java.util.*;
 import java.util.regex.Pattern;
 import javax.tools.*;
 
-import com.sun.tools.classfile.*;
-import com.sun.tools.classfile.Dependencies.*;
-import com.sun.tools.classfile.Dependency.Location;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.Dependencies.*;
+import sbql4j8.com.sun.tools.classfile.Dependency.Location;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.Context;
 
 /**
  * Demo utility for using the classfile dependency analysis API framework.

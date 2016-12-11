@@ -27,10 +27,10 @@
  * @summary Supplementary test cases needed for doclint
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.doclint.DocLint;
-import com.sun.tools.doclint.DocLint.BadArgs;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.doclint.DocLint;
+import sbql4j8.com.sun.tools.doclint.DocLint.BadArgs;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;

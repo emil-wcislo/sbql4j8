@@ -53,7 +53,7 @@ public class Test {
             "-d", classesDir.getPath(),
             baseFile.getPath()
         };
-        com.sun.tools.javac.Main.compile(javacArgs);
+        sbql4j8.com.sun.tools.javac.Main.compile(javacArgs);
 
         writeFile(srcFile, srcText);
         String[] args = {
@@ -68,7 +68,7 @@ public class Test {
         PrintStream prev = System.err;
         System.setErr(ps);
         try {
-            int rc = com.sun.tools.javadoc.Main.execute(args);
+            int rc = sbql4j8.com.sun.tools.javadoc.Main.execute(args);
         } finally {
             System.err.flush();
             System.setErr(prev);

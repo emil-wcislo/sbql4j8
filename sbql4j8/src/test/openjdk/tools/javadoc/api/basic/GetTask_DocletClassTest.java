@@ -29,9 +29,9 @@
  * @run main GetTask_DocletClassTest
  */
 
-import com.sun.javadoc.DocErrorReporter;
-import com.sun.javadoc.LanguageVersion;
-import com.sun.javadoc.RootDoc;
+import sbql4j8.com.sun.javadoc.DocErrorReporter;
+import sbql4j8.com.sun.javadoc.LanguageVersion;
+import sbql4j8.com.sun.javadoc.RootDoc;
 import java.io.File;
 import java.util.Arrays;
 import java.util.Collections;

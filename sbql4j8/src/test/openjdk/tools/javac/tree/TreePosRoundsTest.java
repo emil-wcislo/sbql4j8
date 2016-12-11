@@ -37,8 +37,8 @@ import javax.lang.model.*;
 import javax.lang.model.element.*;
 import javax.tools.*;
 
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 import javax.tools.JavaCompiler.CompilationTask;
 
 // This test is an annotation processor that performs multiple rounds of

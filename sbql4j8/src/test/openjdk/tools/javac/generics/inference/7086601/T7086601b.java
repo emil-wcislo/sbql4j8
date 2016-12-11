@@ -27,7 +27,7 @@
  * @summary Error message bug: cause for method mismatch is 'null'
  */
 
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 import java.net.URI;
 import java.util.Arrays;
 import java.util.ArrayList;

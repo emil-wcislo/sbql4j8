@@ -27,9 +27,9 @@
  * @summary SourceFile attribute includes full path
  */
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.SourceFile_attribute;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.SourceFile_attribute;
 import java.io.*;
 import java.util.*;
 import java.util.jar.*;
@@ -69,7 +69,7 @@ public class T4241573 {
         System.err.println("compile: " + Arrays.asList(args));
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         if (rc != 0) {
             System.err.println(sw.toString());

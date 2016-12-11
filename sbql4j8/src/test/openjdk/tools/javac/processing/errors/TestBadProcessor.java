@@ -64,7 +64,7 @@ public class TestBadProcessor {
         StringWriter sw = new StringWriter();
         try (PrintWriter pw = new PrintWriter(sw)) {
             String[] args = { "-processorpath", classesDir.getPath(), srcFile.getPath() };
-            rc = com.sun.tools.javac.Main.compile(args, pw);
+            rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         }
 
         // verify that it failed as expected, with the expected message
@@ -92,7 +92,7 @@ public class TestBadProcessor {
         int rc;
         StringWriter sw = new StringWriter();
         try (PrintWriter pw = new PrintWriter(sw)) {
-            rc = com.sun.tools.javac.Main.compile(args, pw);
+            rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         }
         String out = sw.toString();
         if (!out.isEmpty())

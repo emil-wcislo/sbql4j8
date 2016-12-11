@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 6665791
- * @summary com.sun.source.tree.MethodTree.toString() does not output default values
+ * @summary sbql4j8.com.sun.source.tree.MethodTree.toString() does not output default values
  */
 
 import java.io.File;
@@ -34,9 +34,9 @@ import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
-import com.sun.source.tree.ClassTree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.tree.ClassTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreeScanner;
 import java.io.FileWriter;
 
 public class T6665791 {

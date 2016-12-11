@@ -28,7 +28,7 @@
  * @run main/timeout=10 T7142086
  */
 
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 import java.net.URI;
 import java.util.List;
 import java.util.ArrayList;

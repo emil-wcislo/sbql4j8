@@ -5,9 +5,9 @@
  * @summary javap shows an incorrect type for operands if the 'wide' prefix is used
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javap.JavapFileManager;
-import com.sun.tools.javap.JavapTask;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javap.JavapFileManager;
+import sbql4j8.com.sun.tools.javap.JavapTask;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.net.URI;

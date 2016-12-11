@@ -29,12 +29,12 @@
 
 import java.lang.reflect.*;
 import java.io.*;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Scope.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.file.JavacFileManager;
-import static com.sun.tools.javac.code.Kinds.*;
+import sbql4j8.com.sun.tools.javac.util.*;
+import sbql4j8.com.sun.tools.javac.code.*;
+import sbql4j8.com.sun.tools.javac.code.Scope.*;
+import sbql4j8.com.sun.tools.javac.code.Symbol.*;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import static sbql4j8.com.sun.tools.javac.code.Kinds.*;
 
 public class HashCollisionTest {
     public static void main(String... args) throws Exception {

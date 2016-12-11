@@ -27,12 +27,12 @@
  * @summary javac should generate method parameters correctly.
  */
 // key: opt.arg.parameters
-import com.sun.tools.classfile.*;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
+import sbql4j8.com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.main.Main;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.Name;
+import sbql4j8.com.sun.tools.javac.util.Names;
 import java.io.*;
 import javax.lang.model.element.*;
 import java.util.*;
@@ -130,8 +130,8 @@ public class MethodParametersTest {
             System.err.println(out);
 
         // Now get the class reader, construct a name for Baz, and load it.
-        com.sun.tools.javac.jvm.ClassReader cr =
-            com.sun.tools.javac.jvm.ClassReader.instance(context);
+        sbql4j8.com.sun.tools.javac.jvm.ClassReader cr =
+            sbql4j8.com.sun.tools.javac.jvm.ClassReader.instance(context);
         Name name = Names.instance(context).fromString(Baz_name);
 
         // Now walk down the language model and check the name of the
@@ -316,7 +316,7 @@ public class MethodParametersTest {
         System.err.println("compile: " + Arrays.asList(args));
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args, pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         String out = sw.toString();
         if (out.length() > 0)

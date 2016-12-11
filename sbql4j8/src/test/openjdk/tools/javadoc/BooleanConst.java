@@ -29,14 +29,14 @@
  * @run main BooleanConst
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.*;
 
 public class BooleanConst extends Doclet
 {
     public static void main(String[] args) {
         // run javadoc on package p
-        if (com.sun.tools.javadoc.Main.
+        if (sbql4j8.com.sun.tools.javadoc.Main.
             execute("javadoc", "BooleanConst", BooleanConst.class.getClassLoader(),
                     new String[] {System.getProperty("test.src", ".") + java.io.File.separatorChar + "BooleanConst.java"}) != 0)
             throw new Error();
@@ -45,7 +45,7 @@ public class BooleanConst extends Doclet
     public static final boolean b1 = false;
     public static final boolean b2 = true;
 
-    public static boolean start(com.sun.javadoc.RootDoc root) {
+    public static boolean start(sbql4j8.com.sun.javadoc.RootDoc root) {
         ClassDoc[] classes = root.classes();
         if (classes.length != 1)
             throw new Error("1 " + Arrays.asList(classes));

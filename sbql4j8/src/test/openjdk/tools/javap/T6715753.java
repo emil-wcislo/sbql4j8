@@ -38,7 +38,7 @@ public class T6715753 {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] args = { "-notAnOption" };
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         String log = sw.toString();
         if (rc == 0
             || log.indexOf("-notAnOption") == -1

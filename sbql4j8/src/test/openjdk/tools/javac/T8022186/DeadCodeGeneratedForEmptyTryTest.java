@@ -29,18 +29,18 @@
  * @summary javac generates dead code if a try with an empty body has a finalizer
  */
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.Code_attribute;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPool.CONSTANT_String_info;
-import com.sun.tools.classfile.ConstantPool.CPInfo;
-import com.sun.tools.classfile.ConstantPool.InvalidIndex;
-import com.sun.tools.classfile.Instruction;
-import com.sun.tools.classfile.Instruction.KindVisitor;
-import com.sun.tools.classfile.Instruction.TypeKind;
-import com.sun.tools.classfile.Method;
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.Code_attribute;
+import sbql4j8.com.sun.tools.classfile.ConstantPool;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.CONSTANT_String_info;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.CPInfo;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.InvalidIndex;
+import sbql4j8.com.sun.tools.classfile.Instruction;
+import sbql4j8.com.sun.tools.classfile.Instruction.KindVisitor;
+import sbql4j8.com.sun.tools.classfile.Instruction.TypeKind;
+import sbql4j8.com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 import java.io.BufferedInputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;

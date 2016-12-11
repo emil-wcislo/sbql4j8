@@ -105,7 +105,7 @@ public class T6729471
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
         String[] args = { "-classpath", testClasses, className };
-        int rc = com.sun.tools.javap.Main.run(args, out);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, out);
         out.close();
         String output = sw.toString();
         System.out.println("class " + className);

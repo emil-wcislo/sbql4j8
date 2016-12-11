@@ -103,7 +103,7 @@ public class Test1b
         }
 
         StringWriter sw = new StringWriter();
-        int rc = com.sun.tools.javac.Main.compile(l.toArray(new String[l.size()]), new PrintWriter(sw));
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(l.toArray(new String[l.size()]), new PrintWriter(sw));
         System.err.println(sw);
 
         Pattern p = Pattern.compile("([A-Z]+).*");

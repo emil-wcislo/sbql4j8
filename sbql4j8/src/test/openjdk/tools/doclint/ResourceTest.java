@@ -34,7 +34,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
-import com.sun.tools.doclint.DocLint;
+import sbql4j8.com.sun.tools.doclint.DocLint;
 
 public class ResourceTest {
     public static void main(String... args) throws Exception {

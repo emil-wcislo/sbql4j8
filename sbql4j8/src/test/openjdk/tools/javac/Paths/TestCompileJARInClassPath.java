@@ -92,7 +92,7 @@ public class TestCompileJARInClassPath {
 
         writeFile("C1.java",
                   "public class C1 {public static void f() {}}");
-        com.sun.tools.javac.Main.compile(new String[]{"C1.java"});
+        sbql4j8.com.sun.tools.javac.Main.compile(new String[]{"C1.java"});
         jarGenerator.run(new String[] {"cf", "C1.jar", "C1.class"});
 
         writeFile("C2.java",
@@ -101,7 +101,7 @@ public class TestCompileJARInClassPath {
                   "Manifest-Version: 1.0\n" +
                   "Class-Path: C1.jar\n" +
                   "Main-Class: C2");
-        com.sun.tools.javac.Main.compile(new String[]{"C2.java"});
+        sbql4j8.com.sun.tools.javac.Main.compile(new String[]{"C2.java"});
         jarGenerator.run(new String[] {"cfm", "C2.jar", "MANIFEST.MF", "C2.class"});
 
         writeFile("C3.java",

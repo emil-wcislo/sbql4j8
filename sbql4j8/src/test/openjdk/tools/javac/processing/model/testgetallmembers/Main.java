@@ -37,7 +37,7 @@ import javax.lang.model.element.PackageElement;
 import javax.lang.model.element.TypeElement;
 import javax.lang.model.util.Elements;
 import javax.tools.*;
-import com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.JavacTask;
 
 import static javax.tools.StandardLocation.CLASS_PATH;
 import static javax.tools.StandardLocation.PLATFORM_CLASS_PATH;

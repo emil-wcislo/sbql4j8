@@ -27,9 +27,9 @@
  * @summary  check that javac does not generate bridge methods for defaults
  */
 
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPool.*;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.*;
+import sbql4j8.com.sun.tools.classfile.Method;
 
 import java.io.*;
 

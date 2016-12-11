@@ -25,8 +25,8 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sun.tools.doclint.DocLint;
-import com.sun.tools.doclint.DocLint.BadArgs;
+import sbql4j8.com.sun.tools.doclint.DocLint;
+import sbql4j8.com.sun.tools.doclint.DocLint.BadArgs;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

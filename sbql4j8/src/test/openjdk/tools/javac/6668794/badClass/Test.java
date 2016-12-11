@@ -75,7 +75,7 @@ public class Test {
         System.err.println("compile: " + Arrays.asList(options));
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(options, out);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(options, out);
         out.close();
 
         String outText = sw.toString();

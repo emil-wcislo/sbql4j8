@@ -35,12 +35,12 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 import javax.tools.JavaFileObject;
 
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.file.RelativePath.RelativeFile;
-import com.sun.tools.javac.file.ZipFileIndex;
-import com.sun.tools.javac.file.ZipFileIndexArchive;
-import com.sun.tools.javac.file.ZipFileIndexCache;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.file.RelativePath.RelativeFile;
+import sbql4j8.com.sun.tools.javac.file.ZipFileIndex;
+import sbql4j8.com.sun.tools.javac.file.ZipFileIndexArchive;
+import sbql4j8.com.sun.tools.javac.file.ZipFileIndexCache;
+import sbql4j8.com.sun.tools.javac.util.Context;
 
 public class T6725036 {
     public static void main(String... args) throws Exception {

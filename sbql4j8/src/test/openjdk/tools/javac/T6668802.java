@@ -66,7 +66,7 @@ public class T6668802
         String[] opts = options.toArray(new String[options.size()]);
         StringWriter sw = new StringWriter();
         PrintWriter out = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(opts, out);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(opts, out);
         if (rc == 0)
             throw new Error("compilation succeeded unexpectedly");
         out.close();

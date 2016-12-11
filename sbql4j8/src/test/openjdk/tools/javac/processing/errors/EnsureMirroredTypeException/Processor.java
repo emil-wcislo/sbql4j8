@@ -31,9 +31,9 @@ import javax.lang.model.type.TypeMirror;
 import javax.lang.model.type.TypeKind;
 import javax.tools.*;
 
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.code.Symbol;
-import static com.sun.tools.javac.code.Symbol.TypeSymbol;
+import sbql4j8.com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.code.Symbol;
+import static sbql4j8.com.sun.tools.javac.code.Symbol.TypeSymbol;
 
 public class Processor extends JavacTestingAbstractProcessor {
 

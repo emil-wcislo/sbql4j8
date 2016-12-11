@@ -35,7 +35,7 @@ import java.util.*;
 import javax.annotation.processing.*;
 import javax.lang.model.element.*;
 import javax.tools.*;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 
 @SupportedAnnotationTypes({"*"})
 public class T6348193 extends AbstractProcessor

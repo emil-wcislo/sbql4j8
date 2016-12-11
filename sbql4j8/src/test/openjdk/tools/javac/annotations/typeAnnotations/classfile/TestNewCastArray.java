@@ -29,7 +29,7 @@
 import java.lang.annotation.*;
 import java.io.*;
 import java.util.List;
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 import java.lang.annotation.*;
 import static java.lang.annotation.RetentionPolicy.*;

@@ -31,28 +31,28 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.code.TypeTag;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.JCTree.JCClassDecl;
-import com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
-import com.sun.tools.javac.tree.JCTree.JCFieldAccess;
-import com.sun.tools.javac.tree.JCTree.JCIdent;
-import com.sun.tools.javac.tree.JCTree.JCImport;
-import com.sun.tools.javac.tree.JCTree.JCLiteral;
-import com.sun.tools.javac.tree.JCTree.JCMethodDecl;
-import com.sun.tools.javac.tree.JCTree.JCModifiers;
-import com.sun.tools.javac.tree.JCTree.JCVariableDecl;
-import com.sun.tools.javac.tree.Pretty;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.tree.TreeScanner;
-import com.sun.tools.javac.tree.TreeTranslator;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Name;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.code.Flags;
+import sbql4j8.com.sun.tools.javac.code.TypeTag;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCClassDecl;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCCompilationUnit;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCFieldAccess;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCIdent;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCImport;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCLiteral;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCMethodDecl;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCModifiers;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import sbql4j8.com.sun.tools.javac.tree.Pretty;
+import sbql4j8.com.sun.tools.javac.tree.TreeMaker;
+import sbql4j8.com.sun.tools.javac.tree.TreeScanner;
+import sbql4j8.com.sun.tools.javac.tree.TreeTranslator;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.ListBuffer;
+import sbql4j8.com.sun.tools.javac.util.Name;
 import javax.tools.JavaFileManager;
 
 /**
@@ -246,7 +246,7 @@ public class GenStubs {
          */
         @Override
         public void visitModifiers(JCModifiers tree) {
-            tree.annotations = com.sun.tools.javac.util.List.nil();
+            tree.annotations = sbql4j8.com.sun.tools.javac.util.List.nil();
             result = tree;
         }
 

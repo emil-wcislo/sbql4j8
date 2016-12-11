@@ -27,17 +27,17 @@ import javax.annotation.processing.*;
 import javax.lang.model.*;
 import javax.lang.model.element.*;
 
-import com.sun.source.doctree.DocCommentTree;
-import com.sun.source.doctree.ErroneousTree;
-import com.sun.source.tree.ClassTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.tree.VariableTree;
-import com.sun.source.util.DocTreeScanner;
-import com.sun.source.util.DocTrees;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.TreePathScanner;
-import com.sun.source.util.TreeScanner;
-import com.sun.tools.javac.tree.DocPretty;
+import sbql4j8.com.sun.source.doctree.DocCommentTree;
+import sbql4j8.com.sun.source.doctree.ErroneousTree;
+import sbql4j8.com.sun.source.tree.ClassTree;
+import sbql4j8.com.sun.source.tree.MethodTree;
+import sbql4j8.com.sun.source.tree.VariableTree;
+import sbql4j8.com.sun.source.util.DocTreeScanner;
+import sbql4j8.com.sun.source.util.DocTrees;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.tools.javac.tree.DocPretty;
 import java.io.PrintWriter;
 import javax.tools.Diagnostic;
 

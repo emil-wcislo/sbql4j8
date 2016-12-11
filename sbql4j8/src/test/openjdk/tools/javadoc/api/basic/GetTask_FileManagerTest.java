@@ -40,9 +40,9 @@ import javax.tools.JavaFileObject;
 import javax.tools.JavaFileObject.Kind;
 import javax.tools.ToolProvider;
 
-import com.sun.tools.javac.nio.JavacPathFileManager;
-import com.sun.tools.javac.nio.PathFileManager;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.nio.JavacPathFileManager;
+import sbql4j8.com.sun.tools.javac.nio.PathFileManager;
+import sbql4j8.com.sun.tools.javac.util.Context;
 
 /**
  * Tests for DocumentationTool.getTask  fileManager  parameter.

@@ -38,10 +38,10 @@ import java.nio.file.Paths;
 public class CheckAptIsRemovedTest {
     //I think this class can be let with the imports only and that should be enough for as test's purpose
     private static final String NullAPFSrc =
-        "import com.sun.mirror.apt.*;\n" +
-        "import com.sun.mirror.declaration.*;\n" +
-        "import com.sun.mirror.type.*;\n" +
-        "import com.sun.mirror.util.*;\n" +
+        "import sbql4j8.com.sun.mirror.apt.*;\n" +
+        "import sbql4j8.com.sun.mirror.declaration.*;\n" +
+        "import sbql4j8.com.sun.mirror.type.*;\n" +
+        "import sbql4j8.com.sun.mirror.util.*;\n" +
         "import java.util.Collection;\n" +
         "import java.util.Set;\n\n" +
 

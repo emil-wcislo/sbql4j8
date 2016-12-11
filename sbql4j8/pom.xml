@@ -5,16 +5,9 @@
 	<artifactId>sbql4j8</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
-		<sourceDirectory>src/main/openjdk, src/main/sbql4j</sourceDirectory>
-		<testSourceDirectory>src/test/openjdk, src/test/sbql4j</testSourceDirectory>
-		<resources>
-			<resource>
-				<directory>src/main/openjdk</directory>
-				<excludes>
-					<exclude>**/*.java</exclude>
-				</excludes>
-			</resource>
-		</resources>
+<!-- 		<sourceDirectory>src/main/openjdk, src/main/sbql4j</sourceDirectory> -->
+		<sourceDirectory>.</sourceDirectory>
+		<testSourceDirectory>src/test/sbql4j</testSourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -24,8 +17,18 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<includes>
+						<include>src/main/openjdk/**/*.java</include>
+						<include>src/main/sbql4j/**/*.java</include>
+					</includes>
+				</configuration>
+			</plugin>
 		</plugins>
-		
+
 	</build>
 	<dependencies>
 		<dependency>

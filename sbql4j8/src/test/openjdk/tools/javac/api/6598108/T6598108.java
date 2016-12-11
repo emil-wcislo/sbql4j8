@@ -24,15 +24,15 @@
 /*
  * @test
  * @bug     6598108
- * @summary com.sun.source.util.Trees.isAccessible incorrect
+ * @summary sbql4j8.com.sun.source.util.Trees.isAccessible incorrect
  * @author  Jan Lahoda
  */
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.Scope;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreePath;
-import com.sun.source.util.Trees;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.Scope;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreePath;
+import sbql4j8.com.sun.source.util.Trees;
 import java.net.URI;
 import java.util.Arrays;
 import javax.lang.model.element.TypeElement;

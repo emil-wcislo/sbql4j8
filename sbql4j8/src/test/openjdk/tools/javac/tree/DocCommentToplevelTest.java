@@ -27,10 +27,10 @@
  * @summary Javac tokens should retain state
  */
 
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
-import com.sun.tools.javac.tree.DocCommentTable;
-import com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.tree.DocCommentTable;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
 
 import java.net.URI;
 import java.util.*;

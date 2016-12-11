@@ -24,15 +24,15 @@
 /*
  * @test
  * @bug 6570730
- * @summary com.sun.source.tree.ModifiersTree.getFlags() should return class type
+ * @summary sbql4j8.com.sun.source.tree.ModifiersTree.getFlags() should return class type
  */
 
 import java.io.*;
 import java.util.*;
 import javax.tools.*;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
-import com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.api.*;
 
 public class ClassTreeTest {
     public static void main(String... args) throws Exception {

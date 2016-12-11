@@ -31,7 +31,7 @@
 import java.io.*;
 import java.util.*;
 import javax.tools.*;
-import com.sun.tools.javap.*;
+import sbql4j8.com.sun.tools.javap.*;
 
 public class T6866657
 {

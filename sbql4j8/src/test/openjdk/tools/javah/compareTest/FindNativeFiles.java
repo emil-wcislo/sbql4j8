@@ -27,10 +27,10 @@ import java.util.Enumeration;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-import com.sun.tools.classfile.AccessFlags;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.Method;
+import sbql4j8.com.sun.tools.classfile.AccessFlags;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.Method;
 import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;

@@ -28,16 +28,16 @@
  *              AssertionError for "void"
  */
 
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 import java.io.File;
 import java.io.PrintWriter;
 import java.util.Arrays;
 import javax.tools.JavaFileManager;
 import javax.tools.JavaFileObject;
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.PrimitiveTypeTree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.PrimitiveTypeTree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreeScanner;
 import javax.tools.StandardJavaFileManager;
 
 

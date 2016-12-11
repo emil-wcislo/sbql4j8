@@ -1,7 +1,7 @@
 /*
  * @test /nodynamiccopyright/
  * @bug 8008276
- * @summary assertion error in com.sun.tools.javac.comp.TransTypes.visitApply
+ * @summary assertion error in sbql4j8.com.sun.tools.javac.comp.TransTypes.visitApply
  * @compile/fail/ref=MissingError.out -XDrawDiagnostics MissingError.java
  */
 class MissingError {

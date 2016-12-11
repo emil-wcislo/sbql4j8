@@ -59,7 +59,7 @@ public class T6595666 {
         System.err.println("compile: " + Arrays.asList(args));
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc2 = com.sun.tools.javac.Main.compile(args, pw);
+        int rc2 = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
         pw.close();
         System.err.println(sw);
         if (rc != rc2)

@@ -29,16 +29,16 @@
  * @run main MakeQualIdent
  */
 
-import com.sun.source.tree.IdentifierTree;
-import com.sun.source.tree.MemberSelectTree;
-import com.sun.source.tree.Tree;
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TreeScanner;
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.tree.TreeMaker;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.source.tree.IdentifierTree;
+import sbql4j8.com.sun.source.tree.MemberSelectTree;
+import sbql4j8.com.sun.source.tree.Tree;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TreeScanner;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.code.Symtab;
+import sbql4j8.com.sun.tools.javac.tree.TreeMaker;
+import sbql4j8.com.sun.tools.javac.util.Context;
 import java.util.ArrayList;
 
 public class MakeQualIdent {

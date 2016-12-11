@@ -31,8 +31,8 @@
     import java.util.*;
     import javax.tools.*;
 
-    import com.sun.source.util.JavacTask;
-    import com.sun.tools.javac.api.JavacTool;
+    import sbql4j8.com.sun.source.util.JavacTask;
+    import sbql4j8.com.sun.tools.javac.api.JavacTool;
 
     public class T6430241 {
         public static void main(String... args) throws Exception {
@@ -81,7 +81,7 @@
 
             StringWriter sw = new StringWriter();
             PrintWriter pw = new PrintWriter(sw);
-            int rc = com.sun.tools.javac.Main.compile(args, pw);
+            int rc = sbql4j8.com.sun.tools.javac.Main.compile(args, pw);
             String out = showOutput(sw.toString());
 
             checkCompilationOK(rc);

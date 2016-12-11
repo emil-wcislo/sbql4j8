@@ -29,8 +29,8 @@
  * @run main T6358786 T6358786.java
  */
 
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
 import java.util.Arrays;
 
 import javax.lang.model.util.Elements;

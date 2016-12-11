@@ -27,8 +27,8 @@
  * @summary Ensure that ListBuffer is working properly
  */
 
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
+import sbql4j8.com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.util.ListBuffer;
 import java.util.Iterator;
 import java.util.Objects;
 

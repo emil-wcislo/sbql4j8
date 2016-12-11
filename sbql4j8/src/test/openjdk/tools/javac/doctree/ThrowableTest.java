@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 7021614
- * @summary extend com.sun.source API to support parsing javadoc comments
+ * @summary extend sbql4j8.com.sun.source API to support parsing javadoc comments
  * @build DocCommentTester
  * @run main DocCommentTester ThrowableTest.java
  */

@@ -26,17 +26,17 @@ package p;
 /** Test that when running javadoc on a package, we only get
  *  documentation for those classes for which source was provided.
  */
-public class SourceOnly extends com.sun.javadoc.Doclet
+public class SourceOnly extends sbql4j8.com.sun.javadoc.Doclet
 {
     public static void main(String[] args) {
         // run javadoc on package p
-        int result = com.sun.tools.javadoc.Main.
+        int result = sbql4j8.com.sun.tools.javadoc.Main.
             execute("javadoc", "p.SourceOnly", SourceOnly.class.getClassLoader(), new String[] {"p"});
         if (result != 0)
             throw new Error();
     }
 
-    public static boolean start(com.sun.javadoc.RootDoc root) {
+    public static boolean start(sbql4j8.com.sun.javadoc.RootDoc root) {
         if (root.classes().length != 1)
             throw new Error("wrong set of classes documented: " + java.util.Arrays.asList(root.classes()));
         return true;

@@ -21,7 +21,7 @@
  * questions.
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.util.*;
 import java.io.*;
 
@@ -225,7 +225,7 @@ public abstract class JavadocTester {
         PrintStream prevErr = System.err;
         System.setErr(new PrintStream(stderr));
 
-        int returnCode = com.sun.tools.javadoc.Main.execute(
+        int returnCode = sbql4j8.com.sun.tools.javadoc.Main.execute(
                 getBugName(),
                 new PrintWriter(errors, true),
                 new PrintWriter(warnings, true),

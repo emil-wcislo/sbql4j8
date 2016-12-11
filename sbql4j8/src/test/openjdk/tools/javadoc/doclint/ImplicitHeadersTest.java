@@ -37,7 +37,7 @@ public class ImplicitHeadersTest {
         File testSrc = new File(System.getProperty("test.src"));
         File testFile = new File(testSrc, ImplicitHeadersTest.class.getSimpleName() + ".java");
         String[] javadocArgs = { "-d", "out", testFile.getPath() };
-        int rc = com.sun.tools.javadoc.Main.execute(javadocArgs);
+        int rc = sbql4j8.com.sun.tools.javadoc.Main.execute(javadocArgs);
         if (rc != 0)
             throw new Error("unexpected exit: rc=" + rc);
     }

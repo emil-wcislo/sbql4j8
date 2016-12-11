@@ -26,7 +26,7 @@ import java.io.*;
 import java.net.URL;
 import java.util.List;
 
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 public class ClassfileTestHelper {
     int expected_tinvisibles = 0;
@@ -48,7 +48,7 @@ public class ClassfileTestHelper {
     }
 
     File compile(File f) {
-        int rc = com.sun.tools.javac.Main.compile(new String[] {
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] {
                 "-source", "1.8", "-g", f.getPath() });
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);

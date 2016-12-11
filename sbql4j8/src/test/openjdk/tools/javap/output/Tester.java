@@ -272,7 +272,7 @@ public abstract class Tester {
     protected void compileTestFile() {
         String path = javaFile.getPath();
         String params[] =  { "-source", "1.8", "-g", path };
-        int rc = com.sun.tools.javac.Main.compile(params);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(params);
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);
         classFile = new File(path.substring(0, path.length() - 5) + ".class");
@@ -289,7 +289,7 @@ public abstract class Tester {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] args = { "-v", "-classpath", testClasses, "Test" };
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         if (rc != 0)
             throw new Error("javap failed. rc=" + rc);
         pw.close();

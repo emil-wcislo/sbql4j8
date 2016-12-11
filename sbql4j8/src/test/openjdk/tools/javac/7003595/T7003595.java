@@ -27,12 +27,12 @@
  * @summary IncompatibleClassChangeError with unreferenced local class with subclass
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.InnerClasses_attribute;
-import com.sun.tools.classfile.ConstantPool.*;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.InnerClasses_attribute;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.*;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 
 import java.io.File;
 import java.net.URI;

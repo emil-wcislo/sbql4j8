@@ -34,12 +34,12 @@ import javax.lang.model.*;
 import javax.lang.model.element.TypeElement;
 import javax.tools.*;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.ClientCodeWrapper;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.util.JCDiagnostic;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.ClientCodeWrapper;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.util.JCDiagnostic;
 
-import static com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag.*;
+import static sbql4j8.com.sun.tools.javac.util.JCDiagnostic.DiagnosticFlag.*;
 
 
 public class TestSuppression {

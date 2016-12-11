@@ -27,12 +27,12 @@
  * @summary javac should not close processorClassLoader before end of compilation
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.source.util.TaskEvent;
-import com.sun.source.util.TaskListener;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.source.util.TaskEvent;
+import sbql4j8.com.sun.source.util.TaskListener;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.Context;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;

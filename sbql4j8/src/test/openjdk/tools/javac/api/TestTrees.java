@@ -27,8 +27,8 @@
  * @summary new Trees API
  */
 
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
 import java.io.*;
 import java.lang.annotation.*;
 import java.util.*;
@@ -37,9 +37,9 @@ import javax.lang.model.SourceVersion;
 import javax.lang.model.element.*;
 import javax.lang.model.type.*;
 import javax.tools.*;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.tree.JCTree;
-import com.sun.tools.javac.tree.TreeInfo;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.tree.JCTree;
+import sbql4j8.com.sun.tools.javac.tree.TreeInfo;
 
 @Anno
 @SupportedAnnotationTypes("*")

@@ -39,10 +39,10 @@ import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
 
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javadoc.Messager;
-import com.sun.tools.javadoc.api.JavadocTaskImpl;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javadoc.Messager;
+import sbql4j8.com.sun.tools.javadoc.api.JavadocTaskImpl;
 
 /**
  *  Misc tests for JavacTaskImpl.

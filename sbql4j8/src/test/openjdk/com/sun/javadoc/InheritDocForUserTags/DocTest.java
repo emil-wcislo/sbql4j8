@@ -59,7 +59,7 @@ public class DocTest {
 
         int rc;
         try {
-            rc = com.sun.tools.javadoc.Main.execute(javadoc_args);
+            rc = sbql4j8.com.sun.tools.javadoc.Main.execute(javadoc_args);
         } finally {
             err_ps.close();
             System.setErr(prevErr);
@@ -71,7 +71,7 @@ public class DocTest {
         if (rc != 0)
             throw new Exception("javadoc exited with rc=" + rc);
 
-        if (err.contains("at com.sun."))
+        if (err.contains("at sbql4j8.com.sun."))
             throw new Exception("javadoc output contains stack trace");
     }
 

@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 7073477
- * @summary NPE in com.sun.tools.javac.code.Symbol$VarSymbol.getConstValue
+ * @summary NPE in sbql4j8.com.sun.tools.javac.code.Symbol$VarSymbol.getConstValue
  * @compile T7073477.java
  */
 

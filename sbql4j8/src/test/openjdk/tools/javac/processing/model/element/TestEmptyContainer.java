@@ -31,7 +31,7 @@
  * @compile -processor TestEmptyContainer -proc:only TestEmptyContainer.java
  */
 
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 
 import java.lang.annotation.*;
 import java.util.Arrays;

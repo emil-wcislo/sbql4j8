@@ -37,10 +37,10 @@ import javax.lang.model.element.*;
 import javax.lang.model.util.*;
 import static javax.tools.Diagnostic.Kind.*;
 
-import com.sun.source.tree.*;
-import com.sun.source.util.Trees;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.Trees;
 
-import static com.sun.source.tree.Tree.Kind.*;
+import static sbql4j8.com.sun.source.tree.Tree.Kind.*;
 
 @interface TestMe {
     Tree.Kind value();

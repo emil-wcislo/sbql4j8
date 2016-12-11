@@ -27,7 +27,7 @@
  * @summary Tree API: Tree.Kind should have mapping to interface
  */
 
-import com.sun.source.tree.*;
+import sbql4j8.com.sun.source.tree.*;
 
 public class TreeKindTest {
     public static void main(String... args) {

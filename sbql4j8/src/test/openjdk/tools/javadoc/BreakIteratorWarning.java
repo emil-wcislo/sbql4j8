@@ -29,7 +29,7 @@
  *          BreakIterator algorithm.
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 public class BreakIteratorWarning extends Doclet {
 
@@ -38,7 +38,7 @@ public class BreakIteratorWarning extends Doclet {
             new java.io.File(System.getProperty("test.src", "."),
                              "BreakIteratorWarning.java");
 
-        if (com.sun.tools.javadoc.Main.execute(
+        if (sbql4j8.com.sun.tools.javadoc.Main.execute(
                 "javadoc",
                 "BreakIteratorWarning",
                 BreakIteratorWarning.class.getClassLoader(),

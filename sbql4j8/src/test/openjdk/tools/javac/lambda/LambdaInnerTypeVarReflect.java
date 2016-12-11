@@ -70,7 +70,7 @@ public class LambdaInnerTypeVarReflect {
         String innerName = new TV().go().getClass().getName();
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int exitCode = com.sun.tools.javap.Main.run(new String[] {innerName}, pw);
+        int exitCode = sbql4j8.com.sun.tools.javap.Main.run(new String[] {innerName}, pw);
         assertTrue(exitCode == 0);
 
         String javapOut = sw.toString();

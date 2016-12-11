@@ -115,7 +115,7 @@ public class ClassVersionChecker {
     }
 
     int compile(String... args) {
-        return com.sun.tools.javac.Main.compile(args);
+        return sbql4j8.com.sun.tools.javac.Main.compile(args);
     }
 
     void logMsg (String str) {

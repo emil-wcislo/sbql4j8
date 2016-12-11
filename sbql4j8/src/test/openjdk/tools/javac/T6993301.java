@@ -27,12 +27,12 @@
  * @summary catch parameters do not have correct kind (i.e. ElementKind.EXCEPTION_PARAMETER)
  */
 
-import com.sun.source.tree.CompilationUnitTree;
-import com.sun.source.tree.IdentifierTree;
-import com.sun.source.tree.VariableTree;
-import com.sun.source.util.TreePathScanner;
-import com.sun.source.util.Trees;
-import com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.source.tree.CompilationUnitTree;
+import sbql4j8.com.sun.source.tree.IdentifierTree;
+import sbql4j8.com.sun.source.tree.VariableTree;
+import sbql4j8.com.sun.source.util.TreePathScanner;
+import sbql4j8.com.sun.source.util.Trees;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
 import java.io.IOException;
 import java.net.URI;
 import java.util.Arrays;

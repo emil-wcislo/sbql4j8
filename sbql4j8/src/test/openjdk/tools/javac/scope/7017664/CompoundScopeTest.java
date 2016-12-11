@@ -30,11 +30,11 @@
 import java.util.Random;
 import java.util.Map;
 import java.util.HashMap;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.code.Scope.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.util.*;
+import sbql4j8.com.sun.tools.javac.code.*;
+import sbql4j8.com.sun.tools.javac.code.Scope.*;
+import sbql4j8.com.sun.tools.javac.code.Symbol.*;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
 
 public class CompoundScopeTest {
     public static void main(String... args) throws Exception {

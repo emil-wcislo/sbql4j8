@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug 6441871
- * @summary javac crashes at com.sun.tools.javac.jvm.ClassReader$BadClassFile
+ * @summary javac crashes at sbql4j8.com.sun.tools.javac.jvm.ClassReader$BadClassFile
  * @library /tools/javac/lib
  * @build JavacTestingAbstractProcessor A
  * @run main T6348499
@@ -39,8 +39,8 @@ import javax.annotation.processing.*;
 import javax.lang.model.*;
 import javax.lang.model.element.*;
 import javax.tools.*;
-import com.sun.source.util.*;
-import com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.api.*;
 
 
 public class T6348499 {

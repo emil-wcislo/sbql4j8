@@ -132,7 +132,7 @@ public class TestSuperclass {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
         String[] args = { file.getPath() };
-        int rc = com.sun.tools.javap.Main.run(args, pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args, pw);
         pw.close();
         String out = sw.toString();
         if (!out.isEmpty())

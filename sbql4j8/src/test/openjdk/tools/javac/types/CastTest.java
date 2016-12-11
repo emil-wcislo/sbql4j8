@@ -30,12 +30,12 @@
  * @run main CastTest
  */
 
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.code.Symbol.*;
+import sbql4j8.com.sun.tools.javac.code.Type;
+import sbql4j8.com.sun.tools.javac.code.Type.*;
+import sbql4j8.com.sun.tools.javac.code.Symbol.*;
 import java.lang.reflect.Array;
 
-import static com.sun.tools.javac.code.Flags.*;
+import static sbql4j8.com.sun.tools.javac.code.Flags.*;
 
 /**
  * Check invariants in cast conversion involving primitive types and arrays

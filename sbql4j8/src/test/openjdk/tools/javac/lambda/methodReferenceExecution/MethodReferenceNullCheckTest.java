@@ -29,7 +29,7 @@
  * @summary Missing null check in bound method reference capture
  */
 
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 import java.util.function.*;
 
 public class MethodReferenceNullCheckTest {

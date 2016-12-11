@@ -26,18 +26,18 @@ import java.util.*;
 import java.util.List;
 import javax.tools.*;
 
-import com.sun.tools.javac.api.*;
-import com.sun.tools.javac.api.DiagnosticFormatter.Configuration.DiagnosticPart;
-import com.sun.tools.javac.api.Formattable.LocalizedString;
-import com.sun.tools.javac.code.Flags.Flag;
-import com.sun.tools.javac.code.Kinds.KindName;
-import com.sun.tools.javac.code.*;
-import com.sun.tools.javac.file.*;
-import com.sun.tools.javac.main.Main;
-import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.parser.Tokens.TokenKind;
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.util.AbstractDiagnosticFormatter.SimpleConfiguration;
+import sbql4j8.com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.tools.javac.api.DiagnosticFormatter.Configuration.DiagnosticPart;
+import sbql4j8.com.sun.tools.javac.api.Formattable.LocalizedString;
+import sbql4j8.com.sun.tools.javac.code.Flags.Flag;
+import sbql4j8.com.sun.tools.javac.code.Kinds.KindName;
+import sbql4j8.com.sun.tools.javac.code.*;
+import sbql4j8.com.sun.tools.javac.file.*;
+import sbql4j8.com.sun.tools.javac.main.Main;
+import sbql4j8.com.sun.tools.javac.main.JavaCompiler;
+import sbql4j8.com.sun.tools.javac.parser.Tokens.TokenKind;
+import sbql4j8.com.sun.tools.javac.util.*;
+import sbql4j8.com.sun.tools.javac.util.AbstractDiagnosticFormatter.SimpleConfiguration;
 import javax.lang.model.SourceVersion;
 
 /**

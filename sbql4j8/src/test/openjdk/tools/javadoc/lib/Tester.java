@@ -30,7 +30,7 @@
 
 import java.io.*;
 import java.util.*;
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 
 
 public class Tester {
@@ -58,7 +58,7 @@ public class Tester {
     /*
      * Individual tests can extend this to create generics-aware doclets.
      */
-    public static abstract class Doclet extends com.sun.javadoc.Doclet {
+    public static abstract class Doclet extends sbql4j8.com.sun.javadoc.Doclet {
         public static LanguageVersion languageVersion() {
             return LanguageVersion.JAVA_1_5;
         }
@@ -87,7 +87,7 @@ public class Tester {
 
     public void run() throws IOException {
         try {
-            if (com.sun.tools.javadoc.Main.execute("javadoc",
+            if (sbql4j8.com.sun.tools.javadoc.Main.execute("javadoc",
                                                    docletName,
                                                    getClass().getClassLoader(),
                                                    args) != 0) {

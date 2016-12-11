@@ -38,7 +38,7 @@ import java.lang.annotation.*;
 import java.io.*;
 import java.util.List;
 import java.util.LinkedList;
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 import java.nio.file.Files;
 import java.nio.charset.*;
 import java.io.File;

@@ -27,13 +27,13 @@
  * @summary RichDiagnosticFormatter throws NPE when formatMessage is called directly
  */
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.ClientCodeWrapper.Trusted;
-import com.sun.tools.javac.api.DiagnosticFormatter;
-import com.sun.tools.javac.api.JavacTaskImpl;
-import com.sun.tools.javac.util.Assert;
-import com.sun.tools.javac.util.JCDiagnostic;
-import com.sun.tools.javac.util.Log;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.ClientCodeWrapper.Trusted;
+import sbql4j8.com.sun.tools.javac.api.DiagnosticFormatter;
+import sbql4j8.com.sun.tools.javac.api.JavacTaskImpl;
+import sbql4j8.com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.JCDiagnostic;
+import sbql4j8.com.sun.tools.javac.util.Log;
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;

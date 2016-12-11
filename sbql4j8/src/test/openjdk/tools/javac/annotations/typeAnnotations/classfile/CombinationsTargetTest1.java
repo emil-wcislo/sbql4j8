@@ -27,7 +27,7 @@
  * @summary Combinations of Target ElementTypes on (repeated)type annotations.
  */
 
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 import java.io.File;
 
 public class CombinationsTargetTest1 extends ClassfileTestHelper {

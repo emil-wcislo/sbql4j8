@@ -36,8 +36,8 @@ import javax.lang.model.element.*;
 import javax.lang.model.util.*;
 import static javax.lang.model.util.ElementFilter.*;
 
-import com.sun.source.tree.*;
-import com.sun.source.util.Trees;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.Trees;
 
 @SupportedAnnotationTypes("*")
 public class TestGetTree extends AbstractProcessor {

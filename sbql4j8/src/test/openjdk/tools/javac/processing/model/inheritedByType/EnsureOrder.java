@@ -40,7 +40,7 @@ import javax.lang.model.util.*;
 import static javax.lang.model.util.ElementFilter.*;
 import static javax.tools.Diagnostic.Kind.*;
 import static javax.tools.StandardLocation.*;
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 
 @Target({ElementType.TYPE_PARAMETER, ElementType.TYPE})
 @Inherited

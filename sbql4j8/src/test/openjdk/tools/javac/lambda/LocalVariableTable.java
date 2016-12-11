@@ -32,7 +32,7 @@
 import java.io.*;
 import java.lang.annotation.*;
 import java.util.*;
-import com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.*;
 
 /*
  * The test checks that a LocalVariableTable attribute is generated for the

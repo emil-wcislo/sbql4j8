@@ -30,8 +30,8 @@
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import com.sun.tools.classfile.*;
-import com.sun.tools.classfile.ConstantPool.*;
+import sbql4j8.com.sun.tools.classfile.*;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.*;
 
 public class T6887895 {
     public static void main(String[] args) throws Exception {

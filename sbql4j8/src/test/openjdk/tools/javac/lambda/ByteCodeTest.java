@@ -29,12 +29,12 @@
  * @run main ByteCodeTest
  */
 
-import com.sun.tools.classfile.Attribute;
-import com.sun.tools.classfile.BootstrapMethods_attribute;
-import com.sun.tools.classfile.ClassFile;
-import com.sun.tools.classfile.ConstantPool;
-import com.sun.tools.classfile.ConstantPoolException;
-import com.sun.tools.classfile.ConstantPool.*;
+import sbql4j8.com.sun.tools.classfile.Attribute;
+import sbql4j8.com.sun.tools.classfile.BootstrapMethods_attribute;
+import sbql4j8.com.sun.tools.classfile.ClassFile;
+import sbql4j8.com.sun.tools.classfile.ConstantPool;
+import sbql4j8.com.sun.tools.classfile.ConstantPoolException;
+import sbql4j8.com.sun.tools.classfile.ConstantPool.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -121,7 +121,7 @@ public class ByteCodeTest {
     }
 
     static File compile(File f) {
-        int rc = com.sun.tools.javac.Main.compile(new String[] {
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] {
                 "-source", "1.8", "-g", f.getPath() });
         if (rc != 0)
                 throw new Error("compilation failed. rc=" + rc);

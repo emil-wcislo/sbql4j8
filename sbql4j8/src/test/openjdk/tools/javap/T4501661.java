@@ -85,7 +85,7 @@ public class T4501661 {
     }
 
     File compileTestFile(File f) {
-        int rc = com.sun.tools.javac.Main.compile(new String[] { "-g", f.getPath() });
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(new String[] { "-g", f.getPath() });
         if (rc != 0)
             throw new Error("compilation failed. rc=" + rc);
         String path = f.getPath();
@@ -95,7 +95,7 @@ public class T4501661 {
     String javap(List<String> args, boolean expectOK) {
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javap.Main.run(args.toArray(new String[args.size()]), pw);
+        int rc = sbql4j8.com.sun.tools.javap.Main.run(args.toArray(new String[args.size()]), pw);
         System.err.println(args);
         System.err.println(sw);
         if (expectOK) {

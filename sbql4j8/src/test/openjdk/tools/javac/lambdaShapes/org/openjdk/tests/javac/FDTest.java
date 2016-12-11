@@ -25,8 +25,8 @@ package org.openjdk.tests.javac;
 
 import org.openjdk.tests.shapegen.*;
 
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.util.Pair;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.util.Pair;
 
 import java.net.URI;
 import java.util.Arrays;

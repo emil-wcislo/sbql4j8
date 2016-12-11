@@ -47,7 +47,7 @@ public class T6176978
             new File(testSrc, "X.java").getPath()
         };
 
-        int rc = com.sun.tools.javac.Main.compile(javac_args);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(javac_args);
         if (rc != 0)
             throw new Error("javac exit code: " + rc);
 
@@ -57,7 +57,7 @@ public class T6176978
             new File(testSrc, "T6176978.java").getPath()
         };
 
-        rc = com.sun.tools.javadoc.Main.execute(jdoc_args);
+        rc = sbql4j8.com.sun.tools.javadoc.Main.execute(jdoc_args);
         if (rc == 0)
             throw new Error("javadoc unexpectedly succeeded");
 
@@ -69,7 +69,7 @@ public class T6176978
         currThread.setContextClassLoader(urlCL);
 
         try {
-            rc = com.sun.tools.javadoc.Main.execute(jdoc_args);
+            rc = sbql4j8.com.sun.tools.javadoc.Main.execute(jdoc_args);
             if (rc != 0)
                 throw new Error("javadoc exit: " + rc);
         }

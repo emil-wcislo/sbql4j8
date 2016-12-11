@@ -29,9 +29,9 @@
  * @run main T4994049 FileWithTabs.java
  */
 
-import com.sun.javadoc.*;
+import sbql4j8.com.sun.javadoc.*;
 import java.io.*;
-import static com.sun.tools.javadoc.Main.execute;
+import static sbql4j8.com.sun.tools.javadoc.Main.execute;
 
 public class T4994049 extends Doclet {
 

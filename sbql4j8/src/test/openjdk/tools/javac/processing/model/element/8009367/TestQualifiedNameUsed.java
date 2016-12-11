@@ -37,7 +37,7 @@ import javax.annotation.processing.*;
 import javax.lang.model.element.*;
 import static javax.lang.model.util.ElementFilter.*;
 
-import com.sun.tools.javac.util.Assert;
+import sbql4j8.com.sun.tools.javac.util.Assert;
 
 import java.util.Arrays;
 

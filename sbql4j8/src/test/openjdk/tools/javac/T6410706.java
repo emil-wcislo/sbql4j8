@@ -35,8 +35,8 @@ import javax.tools.DiagnosticListener;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.StandardLocation;
-import com.sun.source.util.JavacTask;
-import com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.source.util.JavacTask;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
 
 public class T6410706 {
     public static void main(String... args) throws IOException {

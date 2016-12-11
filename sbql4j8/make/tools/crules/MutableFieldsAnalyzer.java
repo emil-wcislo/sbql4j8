@@ -28,12 +28,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.sun.tools.javac.code.Kinds;
-import com.sun.tools.javac.tree.TreeScanner;
+import sbql4j8.com.sun.tools.javac.code.Kinds;
+import sbql4j8.com.sun.tools.javac.tree.TreeScanner;
 
-import static com.sun.source.util.TaskEvent.Kind;
-import static com.sun.tools.javac.code.Flags.*;
-import static com.sun.tools.javac.tree.JCTree.JCVariableDecl;
+import static sbql4j8.com.sun.source.util.TaskEvent.Kind;
+import static sbql4j8.com.sun.tools.javac.code.Flags.*;
+import static sbql4j8.com.sun.tools.javac.tree.JCTree.JCVariableDecl;
 
 public class MutableFieldsAnalyzer extends AbstractCodingRulesAnalyzer {
 

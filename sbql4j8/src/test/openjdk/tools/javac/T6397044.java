@@ -31,11 +31,11 @@ import java.io.*;
 import java.util.*;
 import javax.tools.*;
 import javax.lang.model.element.Modifier;
-import com.sun.source.tree.*;
-import com.sun.source.util.*;
-import com.sun.tools.javac.api.JavacTool;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.tree.JCTree.JCModifiers;
+import sbql4j8.com.sun.source.tree.*;
+import sbql4j8.com.sun.source.util.*;
+import sbql4j8.com.sun.tools.javac.api.JavacTool;
+import sbql4j8.com.sun.tools.javac.code.Flags;
+import sbql4j8.com.sun.tools.javac.tree.JCTree.JCModifiers;
 
 public abstract class T6397044 {
     public static void main(String[] args) throws Exception {

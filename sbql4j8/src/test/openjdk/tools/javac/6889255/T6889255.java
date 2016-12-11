@@ -30,17 +30,17 @@
 import java.io.*;
 import java.util.*;
 import javax.tools.StandardLocation;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.code.Kinds;
-import com.sun.tools.javac.code.Scope;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.ClassType;
-import com.sun.tools.javac.code.TypeTag;
-import com.sun.tools.javac.file.JavacFileManager;
-import com.sun.tools.javac.jvm.ClassReader;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.util.Names;
+import sbql4j8.com.sun.tools.javac.code.Flags;
+import sbql4j8.com.sun.tools.javac.code.Kinds;
+import sbql4j8.com.sun.tools.javac.code.Scope;
+import sbql4j8.com.sun.tools.javac.code.Symbol.*;
+import sbql4j8.com.sun.tools.javac.code.Type;
+import sbql4j8.com.sun.tools.javac.code.Type.ClassType;
+import sbql4j8.com.sun.tools.javac.code.TypeTag;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.jvm.ClassReader;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.util.Names;
 
 public class T6889255 {
     boolean testInterfaces = true;
@@ -453,7 +453,7 @@ public class T6889255 {
         args.add("Test.java");
         StringWriter sw = new StringWriter();
         PrintWriter pw = new PrintWriter(sw);
-        int rc = com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
+        int rc = sbql4j8.com.sun.tools.javac.Main.compile(args.toArray(new String[args.size()]), pw);
         pw.close();
         if (rc != 0) {
             System.err.println(sw.toString());

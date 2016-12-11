@@ -2,7 +2,7 @@
  * @test /nodynamiccopyright/
  * @bug 6956758
  *
- * @summary  NPE in com.sun.tools.javac.code.Symbol - isSubClass
+ * @summary  NPE in sbql4j8.com.sun.tools.javac.code.Symbol - isSubClass
  * @author Maurizio Cimadamore
  * @compile/fail/ref=T6956758neg.out -XDrawDiagnostics T6956758neg.java
  *

@@ -21,9 +21,9 @@
  * questions.
  */
 
-import com.sun.tools.javac.util.*;
-import com.sun.tools.javac.api.*;
-import com.sun.tools.javac.file.*;
+import sbql4j8.com.sun.tools.javac.util.*;
+import sbql4j8.com.sun.tools.javac.api.*;
+import sbql4j8.com.sun.tools.javac.file.*;
 import java.io.*;
 import java.util.*;
 import javax.tools.*;

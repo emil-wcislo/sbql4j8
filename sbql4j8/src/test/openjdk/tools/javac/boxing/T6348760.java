@@ -24,7 +24,7 @@
 /*
  * @test
  * @bug     6348760
- * @summary crash: java.lang.AssertionError at com.sun.tools.javac.comp.Lower.abstractLval(Lower.java:1853)
+ * @summary crash: java.lang.AssertionError at sbql4j8.com.sun.tools.javac.comp.Lower.abstractLval(Lower.java:1853)
  * @author  Peter von der Ah\u00e9
  * @run main/othervm -Xfuture T6348760
  */

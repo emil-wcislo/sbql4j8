@@ -21,20 +21,20 @@
  * questions.
  */
 
-import com.sun.tools.javac.code.BoundKind;
-import com.sun.tools.javac.code.Flags;
-import com.sun.tools.javac.util.Context;
-import com.sun.tools.javac.code.Types;
-import com.sun.tools.javac.code.Symtab;
-import com.sun.tools.javac.code.Type;
-import com.sun.tools.javac.code.Type.*;
-import com.sun.tools.javac.code.Symbol.*;
-import com.sun.tools.javac.comp.Check;
-import com.sun.tools.javac.util.List;
-import com.sun.tools.javac.util.ListBuffer;
-import com.sun.tools.javac.util.Name;
-import com.sun.tools.javac.util.Names;
-import com.sun.tools.javac.file.JavacFileManager;
+import sbql4j8.com.sun.tools.javac.code.BoundKind;
+import sbql4j8.com.sun.tools.javac.code.Flags;
+import sbql4j8.com.sun.tools.javac.util.Context;
+import sbql4j8.com.sun.tools.javac.code.Types;
+import sbql4j8.com.sun.tools.javac.code.Symtab;
+import sbql4j8.com.sun.tools.javac.code.Type;
+import sbql4j8.com.sun.tools.javac.code.Type.*;
+import sbql4j8.com.sun.tools.javac.code.Symbol.*;
+import sbql4j8.com.sun.tools.javac.comp.Check;
+import sbql4j8.com.sun.tools.javac.util.List;
+import sbql4j8.com.sun.tools.javac.util.ListBuffer;
+import sbql4j8.com.sun.tools.javac.util.Name;
+import sbql4j8.com.sun.tools.javac.util.Names;
+import sbql4j8.com.sun.tools.javac.file.JavacFileManager;
 
 /**
  * Test harness whose goal is to simplify the task of writing type-system
